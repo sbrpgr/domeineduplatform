@@ -107,7 +107,7 @@ export async function searchTerms(query?: string, domain?: string, difficulty?: 
         LIMIT 50
       `;
 
-      const rows = (await prisma.$queryRawUnsafe<SqlTermRow[]>(sql, ...params)) as SqlTermRow[];
+      const rows = (await prisma.$queryRawUnsafe(sql, ...params)) as SqlTermRow[];
 
       return rows.map(mapSqlTerm);
     } catch {
@@ -156,7 +156,7 @@ export async function findTermByIdOrSlug(value: string): Promise<RepositoryTerm 
   const prisma = getPrismaClient();
   if (prisma) {
     try {
-      const rows = (await prisma.$queryRawUnsafe<SqlTermRow[]>(
+      const rows = (await prisma.$queryRawUnsafe(
         `
         SELECT
           t.id::text AS id,
@@ -223,7 +223,7 @@ export async function listTermsForSitemap(limit = 5000): Promise<SitemapTermRout
   if (prisma) {
     try {
       const safeLimit = Math.max(1, Math.min(limit, 10000));
-      const rows = (await prisma.$queryRawUnsafe<SqlSitemapRow[]>(
+      const rows = (await prisma.$queryRawUnsafe(
         `
         SELECT
           d.slug AS domain_slug,
@@ -268,3 +268,5 @@ export async function listTermsForSitemap(limit = 5000): Promise<SitemapTermRout
     lastModified: new Date(term.lastReviewedAt)
   }));
 }
+
+
