@@ -63,7 +63,7 @@ export async function searchTerms(query?: string, domain?: string, difficulty?: 
 
   if (prisma) {
     try {
-      const conditions: Prisma.Sql[] = [];
+      const conditions: Array<ReturnType<typeof Prisma.sql>> = [];
       if (domain) conditions.push(Prisma.sql`d.slug = ${domain}`);
       if (difficulty) conditions.push(Prisma.sql`t.difficulty::text = ${difficulty}`);
       if (query) {
