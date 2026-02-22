@@ -190,6 +190,7 @@ model Term {
   learningRecords   UserLearningRecord[]
   bookmarks         UserBookmark[]
   notes             UserNote[]
+  contributions     CommunityContribution[]
   embedding         TermEmbedding?
 
   @@map("terms")
