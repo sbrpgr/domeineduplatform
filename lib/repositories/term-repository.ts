@@ -7,9 +7,23 @@ export type RepositoryTerm = {
   slug: string;
   termKo: string;
   termEn: string;
+  pronunciation?: string;
   domain: string;
   difficulty: string;
   oneLineDefinition: string;
+  definitions?: {
+    novice: string;
+    beginner: string;
+    intermediate: string;
+    advanced: string;
+  };
+  usageExamples?: Array<{
+    context: string;
+    example: string;
+  }>;
+  aiPromptExample?: string;
+  imageDescription?: string;
+  imageUrl?: string;
   level2Category?: string;
   level3Category?: string;
   lastReviewedAt?: string;
@@ -194,9 +208,15 @@ export async function findTermByIdOrSlug(value: string): Promise<RepositoryTerm 
       slug: generated.slug,
       termKo: generated.termKo,
       termEn: generated.termEn,
+      pronunciation: generated.pronunciation,
       domain: generated.domainSlug,
       difficulty: generated.difficulty,
       oneLineDefinition: generated.oneLineDefinition,
+      definitions: generated.definitions,
+      usageExamples: generated.usageExamples,
+      aiPromptExample: generated.aiPromptExample,
+      imageDescription: generated.imageDescription,
+      imageUrl: generated.imageUrl,
       lastReviewedAt: new Date().toISOString()
     };
   }
@@ -209,9 +229,13 @@ export async function findTermByIdOrSlug(value: string): Promise<RepositoryTerm 
     slug: sample.slug,
     termKo: sample.termKo,
     termEn: sample.termEn,
+    pronunciation: sample.pronunciation,
     domain: sample.domain,
     difficulty: sample.difficulty,
     oneLineDefinition: sample.oneLineDefinition,
+    definitions: sample.definitions,
+    usageExamples: sample.usageExamples,
+    aiPromptExample: sample.aiPromptExample,
     level2Category: sample.level2Category,
     level3Category: sample.level3Category,
     lastReviewedAt: sample.lastReviewedAt

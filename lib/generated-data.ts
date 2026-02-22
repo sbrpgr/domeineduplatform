@@ -6,6 +6,7 @@ type GeneratedTermRaw = {
   slug: string;
   term_ko: string;
   term_en: string;
+  pronunciation?: string;
   difficulty: 'novice' | 'beginner' | 'intermediate' | 'advanced';
   one_line_definition: string;
   definitions: {
@@ -14,10 +15,13 @@ type GeneratedTermRaw = {
     intermediate: string;
     advanced: string;
   };
+  image_description?: string;
+  image_url?: string;
   usage_examples?: Array<{
     context: string;
     example: string;
   }>;
+  ai_prompt_example?: string;
   domain: string[];
   tags: string[];
 };
@@ -42,14 +46,18 @@ export type GeneratedTerm = {
   slug: string;
   termKo: string;
   termEn: string;
+  pronunciation: string;
   domainSlug: string;
   difficulty: 'novice' | 'beginner' | 'intermediate' | 'advanced';
   oneLineDefinition: string;
   definitions: GeneratedTermRaw['definitions'];
+  imageDescription: string;
+  imageUrl: string;
   usageExamples: Array<{
     context: string;
     example: string;
   }>;
+  aiPromptExample: string;
   tags: string[];
 };
 
@@ -87,11 +95,15 @@ export function loadAllGeneratedTerms(): GeneratedTerm[] {
         slug: item.slug,
         termKo: item.term_ko,
         termEn: item.term_en,
+        pronunciation: item.pronunciation ?? `${item.term_ko} (${item.term_en})`,
         domainSlug,
         difficulty: item.difficulty,
         oneLineDefinition: item.one_line_definition,
         definitions: item.definitions,
+        imageDescription: item.image_description ?? '',
+        imageUrl: item.image_url ?? '',
         usageExamples: item.usage_examples ?? [],
+        aiPromptExample: item.ai_prompt_example ?? '',
         tags: item.tags
       });
     }
