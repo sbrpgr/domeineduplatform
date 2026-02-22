@@ -1,4 +1,3 @@
-﻿import { Prisma } from '@prisma/client';
 import { getPrismaClient } from '@/lib/db';
 import { sampleTerms } from '@/lib/data';
 import { loadAllGeneratedTerms, searchGeneratedTerms } from '@/lib/generated-data';
@@ -63,23 +62,30 @@ export async function searchTerms(query?: string, domain?: string, difficulty?: 
 
   if (prisma) {
     try {
-      const conditions: any[] = [];
-      if (domain) conditions.push(Prisma.sql`d.slug = ${domain}`);
-      if (difficulty) conditions.push(Prisma.sql`t.difficulty::text = ${difficulty}`);
-      if (query) {
-        conditions.push(
-          Prisma.sql`(
-            t.term_ko ILIKE ${`%${query}%`}
-            OR COALESCE(t.term_en, '') ILIKE ${`%${query}%`}
-          )`
-        );
+      const conditions: string[] = [];
+      const params: unknown[] = [];
+
+      if (domain) {
+        params.push(domain);
+        conditions.push(`d.slug = $${params.length}`);
       }
 
-      const whereClause = conditions.length
-        ? Prisma.sql`WHERE ${Prisma.join(conditions, ' AND ')}`
-        : Prisma.empty;
+      if (difficulty) {
+        params.push(difficulty);
+        conditions.push(`t.difficulty::text = $${params.length}`);
+      }
 
-      const rows = (await prisma.$queryRaw<SqlTermRow[]>(Prisma.sql`
+      if (query) {
+        params.push(`%${query}%`);
+        const q1 = `$${params.length}`;
+        params.push(`%${query}%`);
+        const q2 = `$${params.length}`;
+        conditions.push(`(t.term_ko ILIKE ${q1} OR COALESCE(t.term_en, '') ILIKE ${q2})`);
+      }
+
+      const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+
+      const sql = `
         SELECT
           t.id::text AS id,
           t.slug,
@@ -99,7 +105,9 @@ export async function searchTerms(query?: string, domain?: string, difficulty?: 
         ${whereClause}
         ORDER BY t.updated_at DESC
         LIMIT 50
-      `)) as SqlTermRow[];
+      `;
+
+      const rows = (await prisma.$queryRawUnsafe<SqlTermRow[]>(sql, ...params)) as SqlTermRow[];
 
       return rows.map(mapSqlTerm);
     } catch {
@@ -148,7 +156,8 @@ export async function findTermByIdOrSlug(value: string): Promise<RepositoryTerm 
   const prisma = getPrismaClient();
   if (prisma) {
     try {
-      const rows = (await prisma.$queryRaw<SqlTermRow[]>(Prisma.sql`
+      const rows = (await prisma.$queryRawUnsafe<SqlTermRow[]>(
+        `
         SELECT
           t.id::text AS id,
           t.slug,
@@ -165,10 +174,12 @@ export async function findTermByIdOrSlug(value: string): Promise<RepositoryTerm 
         LEFT JOIN categories c ON c.id = t.category_id
         LEFT JOIN categories c2 ON c2.id = CASE WHEN c.level = 3 THEN c.parent_id ELSE c.id END
         LEFT JOIN categories c3 ON c3.id = CASE WHEN c.level = 3 THEN c.id ELSE NULL END
-        WHERE t.id::text = ${value} OR t.slug = ${value}
+        WHERE t.id::text = $1 OR t.slug = $1
         ORDER BY t.updated_at DESC
         LIMIT 1
-      `)) as SqlTermRow[];
+      `,
+        value
+      )) as SqlTermRow[];
 
       if (rows.length > 0) return mapSqlTerm(rows[0]);
     } catch {
@@ -211,7 +222,9 @@ export async function listTermsForSitemap(limit = 5000): Promise<SitemapTermRout
   const prisma = getPrismaClient();
   if (prisma) {
     try {
-      const rows = (await prisma.$queryRaw<SqlSitemapRow[]>(Prisma.sql`
+      const safeLimit = Math.max(1, Math.min(limit, 10000));
+      const rows = (await prisma.$queryRawUnsafe<SqlSitemapRow[]>(
+        `
         SELECT
           d.slug AS domain_slug,
           c2.slug AS category_slug,
@@ -222,8 +235,10 @@ export async function listTermsForSitemap(limit = 5000): Promise<SitemapTermRout
         LEFT JOIN categories c ON c.id = t.category_id
         LEFT JOIN categories c2 ON c2.id = CASE WHEN c.level = 3 THEN c.parent_id ELSE c.id END
         ORDER BY t.updated_at DESC
-        LIMIT ${limit}
-      `)) as SqlSitemapRow[];
+        LIMIT $1
+      `,
+        safeLimit
+      )) as SqlSitemapRow[];
 
       return rows.map((row) => ({
         domainSlug: row.domain_slug,
