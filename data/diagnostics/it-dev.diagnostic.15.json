@@ -1,0 +1,237 @@
+[
+  {
+    "id": "it-dev-diag-01",
+    "type": "multiple_choice",
+    "question": "모달의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "현재 작업 위에 떠서 사용자 반응을 요구하는 UI 레이어",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "모달의 핵심은 '현재 작업 위에 떠서 사용자 반응을 요구하는 UI 레이어'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-02",
+    "type": "ox",
+    "question": "드로어은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "드로어은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-03",
+    "type": "matching",
+    "question": "토스트와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "알림",
+      "상태관리",
+      "전역상태"
+    ],
+    "answer": "알림",
+    "explanation": "토스트의 상위 개념은 알림입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-04",
+    "type": "multiple_choice",
+    "question": "상태관리의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "애플리케이션 상태를 일관되게 저장·갱신하는 방법",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "상태관리의 핵심은 '애플리케이션 상태를 일관되게 저장·갱신하는 방법'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-05",
+    "type": "ox",
+    "question": "전역상태은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "전역상태은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-06",
+    "type": "matching",
+    "question": "서버상태와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "상태관리",
+      "하이드레이션",
+      "가상DOM"
+    ],
+    "answer": "상태관리",
+    "explanation": "서버상태의 상위 개념은 상태관리입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-07",
+    "type": "multiple_choice",
+    "question": "하이드레이션의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "서버 렌더링 결과에 클라이언트 이벤트를 연결하는 과정",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "하이드레이션의 핵심은 '서버 렌더링 결과에 클라이언트 이벤트를 연결하는 과정'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-08",
+    "type": "ox",
+    "question": "가상DOM은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "가상DOM은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-09",
+    "type": "matching",
+    "question": "코드스플리팅와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "프론트엔드 최적화",
+      "트리쉐이킹",
+      "라우팅"
+    ],
+    "answer": "프론트엔드 최적화",
+    "explanation": "코드스플리팅의 상위 개념은 프론트엔드 최적화입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-10",
+    "type": "multiple_choice",
+    "question": "트리쉐이킹의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "사용하지 않는 코드 제거로 번들 크기를 줄이는 최적화",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "트리쉐이킹의 핵심은 '사용하지 않는 코드 제거로 번들 크기를 줄이는 최적화'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-11",
+    "type": "ox",
+    "question": "라우팅은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "라우팅은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-12",
+    "type": "matching",
+    "question": "동적라우팅와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "라우팅",
+      "미들웨어",
+      "REST API"
+    ],
+    "answer": "라우팅",
+    "explanation": "동적라우팅의 상위 개념은 라우팅입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-13",
+    "type": "multiple_choice",
+    "question": "미들웨어의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "요청·응답 사이에서 공통 로직을 처리하는 계층",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "미들웨어의 핵심은 '요청·응답 사이에서 공통 로직을 처리하는 계층'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-14",
+    "type": "ox",
+    "question": "REST API은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "REST API은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "it-dev-diag-15",
+    "type": "matching",
+    "question": "GraphQL와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "API",
+      "엔드포인트",
+      "인증"
+    ],
+    "answer": "API",
+    "explanation": "GraphQL의 상위 개념은 API입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  }
+]

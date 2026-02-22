@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-02-20T13:22:33.731Z",
+  "ended_at": "2026-02-20T13:22:34.605Z",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "generate",
+      "started_at": "2026-02-20T13:22:33.732Z",
+      "ended_at": "2026-02-20T13:22:33.982Z",
+      "status": "passed"
+    },
+    {
+      "name": "diagnostic_quiz",
+      "started_at": "2026-02-20T13:22:33.982Z",
+      "ended_at": "2026-02-20T13:22:34.196Z",
+      "status": "passed"
+    },
+    {
+      "name": "validate",
+      "started_at": "2026-02-20T13:22:34.196Z",
+      "ended_at": "2026-02-20T13:22:34.402Z",
+      "status": "passed"
+    },
+    {
+      "name": "report",
+      "started_at": "2026-02-20T13:22:34.402Z",
+      "ended_at": "2026-02-20T13:22:34.605Z",
+      "status": "passed"
+    }
+  ],
+  "report_summary": {
+    "total_collected": 13000,
+    "total_target": 13000,
+    "total_completion_rate": 100,
+    "domains": 12
+  }
+}

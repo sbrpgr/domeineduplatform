@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "bio-health",
+  "domainNameKo": "바이오 / 헬스케어",
+  "defaultParent": "헬스케어",
+  "terms": [
+    { "termKo": "임상시험", "termEn": "Clinical Trial", "level2": "바이오", "level3": "연구", "oneLineDefinition": "의약품/치료법의 안전성과 유효성을 사람 대상으로 검증하는 연구", "tags": ["임상", "연구"], "parent": "의료 연구" },
+    { "termKo": "무작위배정", "termEn": "Randomization", "level2": "바이오", "level3": "연구", "oneLineDefinition": "편향을 줄이기 위해 시험군을 무작위로 배정하는 방법", "tags": ["연구설계", "통계"], "parent": "임상시험" },
+    { "termKo": "이중맹검", "termEn": "Double Blind", "level2": "바이오", "level3": "연구", "oneLineDefinition": "연구자와 피험자 모두 배정군을 모르게 하는 시험 설계", "tags": ["연구설계", "편향"], "parent": "임상시험" },
+    { "termKo": "1차 평가지표", "termEn": "Primary Endpoint", "level2": "바이오", "level3": "연구", "oneLineDefinition": "임상시험 성공 여부를 판단하는 핵심 결과 지표", "tags": ["지표", "임상"], "parent": "임상시험" },
+    { "termKo": "부작용", "termEn": "Adverse Event", "level2": "의료", "level3": "안전성", "oneLineDefinition": "치료 과정에서 발생하는 바람직하지 않은 의학적 사건", "tags": ["안전성", "의료"], "parent": "약물감시" },
+    { "termKo": "약물감시", "termEn": "Pharmacovigilance", "level2": "의료", "level3": "안전성", "oneLineDefinition": "약물 사용 후 안전성 정보를 수집·평가하는 체계", "tags": ["의약", "안전"], "parent": "헬스케어 안전" },
+    { "termKo": "전자건강기록", "termEn": "EHR", "level2": "헬스IT", "level3": "데이터", "oneLineDefinition": "환자 진료 정보를 디지털 형태로 관리하는 기록 시스템", "tags": ["의료데이터", "시스템"], "parent": "헬스IT" },
+    { "termKo": "의료영상", "termEn": "Medical Imaging", "level2": "의료", "level3": "진단", "oneLineDefinition": "영상 데이터를 활용해 질환을 진단·판독하는 의료 분야", "tags": ["진단", "영상"], "parent": "의료 진단" },
+    { "termKo": "원격진료", "termEn": "Telemedicine", "level2": "의료", "level3": "서비스", "oneLineDefinition": "비대면 통신 수단으로 의료 서비스를 제공하는 형태", "tags": ["비대면", "의료"], "parent": "디지털 헬스케어" },
+    { "termKo": "디지털 치료제", "termEn": "DTx", "level2": "헬스IT", "level3": "서비스", "oneLineDefinition": "소프트웨어 기반으로 질병 예방·관리·치료를 지원하는 의료 제품", "tags": ["소프트웨어", "치료"], "parent": "디지털 헬스케어" },
+    { "termKo": "생체신호", "termEn": "Biometric Signal", "level2": "헬스IT", "level3": "데이터", "oneLineDefinition": "심박, 호흡 등 생리 정보를 계측한 데이터", "tags": ["센서", "데이터"], "parent": "헬스 데이터" },
+    { "termKo": "웨어러블", "termEn": "Wearable", "level2": "헬스IT", "level3": "디바이스", "oneLineDefinition": "신체에 착용해 건강 데이터를 수집하는 기기", "tags": ["디바이스", "헬스"], "parent": "디지털 헬스케어" },
+    { "termKo": "정밀의료", "termEn": "Precision Medicine", "level2": "바이오", "level3": "연구", "oneLineDefinition": "유전·환경·생활습관 정보를 기반으로 개인 맞춤 치료를 제공하는 접근", "tags": ["맞춤", "바이오"], "parent": "의료 연구" },
+    { "termKo": "바이오마커", "termEn": "Biomarker", "level2": "바이오", "level3": "연구", "oneLineDefinition": "질병 상태나 치료 반응을 나타내는 생물학적 지표", "tags": ["지표", "바이오"], "parent": "의료 연구" },
+    { "termKo": "유전체 분석", "termEn": "Genomics", "level2": "바이오", "level3": "연구", "oneLineDefinition": "유전자 정보를 분석해 질환 특성과 위험도를 해석하는 분야", "tags": ["유전자", "분석"], "parent": "정밀의료" },
+    { "termKo": "의료기기 인증", "termEn": "Medical Device Certification", "level2": "규제", "level3": "인증", "oneLineDefinition": "의료기기의 안전성과 성능을 규정에 맞춰 검증받는 절차", "tags": ["규제", "인증"], "parent": "헬스케어 규제" },
+    { "termKo": "HIPAA", "termEn": "HIPAA", "level2": "규제", "level3": "개인정보", "oneLineDefinition": "미국 의료정보 보호를 위한 법적 기준", "tags": ["규제", "보호"], "parent": "헬스케어 규제" },
+    { "termKo": "의료데이터 비식별화", "termEn": "De-identification", "level2": "규제", "level3": "개인정보", "oneLineDefinition": "개인을 식별할 수 없도록 의료데이터를 가공하는 처리", "tags": ["개인정보", "데이터"], "parent": "헬스 데이터" },
+    { "termKo": "코호트", "termEn": "Cohort", "level2": "바이오", "level3": "연구", "oneLineDefinition": "공통 특성을 가진 대상 집단을 정의한 연구 단위", "tags": ["연구", "집단"], "parent": "의료 연구" },
+    { "termKo": "실사용증거", "termEn": "RWE", "level2": "의료", "level3": "연구", "oneLineDefinition": "실제 진료 환경 데이터에서 얻는 임상 근거", "tags": ["근거", "데이터"], "parent": "의료 연구" }
+  ]
+}

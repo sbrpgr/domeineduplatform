@@ -1,0 +1,52 @@
+﻿[
+  {
+    "id": "t-modal",
+    "term_ko": "모달",
+    "term_en": "Modal",
+    "pronunciation": "모달 (Modal)",
+    "domain": ["IT 개발"],
+    "category": ["프론트엔드", "컴포넌트"],
+    "difficulty": "beginner",
+    "one_line_definition": "현재 작업을 잠시 중단시키고 위에 띄우는 UI 팝업",
+    "definitions": {
+      "novice": "확인/취소를 묻는 작은 팝업 창입니다.",
+      "beginner": "배경을 비활성화하고 반응을 요구하는 오버레이 컴포넌트입니다.",
+      "intermediate": "포커스 트랩, ESC 닫기, 백드롭 처리 등 접근성 고려가 필요합니다.",
+      "advanced": "aria-modal 및 모바일 대체 패턴까지 포함해 설계해야 합니다."
+    },
+    "related_terms": {
+      "parent": ["오버레이"],
+      "sibling": ["드로어"],
+      "child": ["백드롭"],
+      "opposite": ["인라인 편집"]
+    },
+    "source_urls": ["https://developer.mozilla.org/", "https://www.w3.org/"],
+    "last_reviewed_at": "2026-02-20",
+    "reviewer": "editor"
+  },
+  {
+    "id": "t-api",
+    "term_ko": "API",
+    "term_en": "Application Programming Interface",
+    "pronunciation": "에이피아이 (API)",
+    "domain": ["IT 개발"],
+    "category": ["백엔드", "API"],
+    "difficulty": "novice",
+    "one_line_definition": "서로 다른 시스템이 규칙에 따라 통신하는 접점",
+    "definitions": {
+      "novice": "서비스끼리 대화하는 약속입니다.",
+      "beginner": "요청/응답 형식으로 기능을 호출하는 표준 인터페이스입니다.",
+      "intermediate": "인증, 버전, 오류계약까지 포함해 설계합니다.",
+      "advanced": "멱등성, 관측성, 레이트리밋을 운영 관점에서 정의합니다."
+    },
+    "related_terms": {
+      "parent": ["백엔드"],
+      "sibling": ["SDK"],
+      "child": ["엔드포인트"],
+      "opposite": ["수동 파일 전달"]
+    },
+    "source_urls": ["https://restfulapi.net/", "https://swagger.io/"],
+    "last_reviewed_at": "2026-02-20",
+    "reviewer": "editor"
+  }
+]

@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "creator",
+  "domainNameKo": "크리에이터 이코노미",
+  "defaultParent": "디지털 콘텐츠 비즈니스",
+  "terms": [
+    { "termKo": "크리에이터 이코노미", "termEn": "Creator Economy", "level2": "비즈니스", "level3": "전략", "oneLineDefinition": "개인이 콘텐츠·팬덤·플랫폼을 통해 수익을 창출하는 경제 생태계", "tags": ["콘텐츠", "비즈니스"], "parent": "디지털 비즈니스" },
+    { "termKo": "팬덤", "termEn": "Fandom", "level2": "커뮤니티", "level3": "운영", "oneLineDefinition": "크리에이터를 중심으로 형성된 충성도 높은 지지 커뮤니티", "tags": ["커뮤니티", "브랜드"], "parent": "크리에이터 성장" },
+    { "termKo": "구독 모델", "termEn": "Subscription Model", "level2": "수익화", "level3": "전략", "oneLineDefinition": "정기 결제를 통해 반복 수익을 확보하는 비즈니스 모델", "tags": ["수익", "모델"], "parent": "수익화 전략" },
+    { "termKo": "멤버십", "termEn": "Membership", "level2": "수익화", "level3": "전략", "oneLineDefinition": "유료 회원에게 독점 콘텐츠·혜택을 제공하는 운영 방식", "tags": ["구독", "팬덤"], "parent": "수익화 전략" },
+    { "termKo": "후원", "termEn": "Sponsorship", "level2": "수익화", "level3": "브랜드", "oneLineDefinition": "브랜드가 크리에이터 콘텐츠에 비용을 지불하고 노출을 얻는 협업", "tags": ["광고", "브랜드"], "parent": "수익화 전략" },
+    { "termKo": "브랜드 딜", "termEn": "Brand Deal", "level2": "수익화", "level3": "브랜드", "oneLineDefinition": "브랜드와 개별 계약으로 콘텐츠 제작·노출을 수행하는 거래", "tags": ["협업", "광고"], "parent": "후원" },
+    { "termKo": "애드센스", "termEn": "AdSense", "level2": "수익화", "level3": "광고", "oneLineDefinition": "콘텐츠 광고 노출에 따라 수익을 배분받는 모델", "tags": ["광고", "수익"], "parent": "수익화 전략" },
+    { "termKo": "CPM", "termEn": "Cost Per Mille", "level2": "수익화", "level3": "광고", "oneLineDefinition": "광고 1,000회 노출당 지급 단가", "tags": ["광고", "지표"], "parent": "광고 지표" },
+    { "termKo": "CPV", "termEn": "Cost Per View", "level2": "수익화", "level3": "광고", "oneLineDefinition": "조회 1회당 광고 비용 또는 수익 단위", "tags": ["광고", "지표"], "parent": "광고 지표" },
+    { "termKo": "인게이지먼트", "termEn": "Engagement", "level2": "커뮤니티", "level3": "분석", "oneLineDefinition": "좋아요·댓글·공유 등 사용자 상호작용의 총합", "tags": ["지표", "커뮤니티"], "parent": "크리에이터 분석" },
+    { "termKo": "리텐션", "termEn": "Audience Retention", "level2": "커뮤니티", "level3": "분석", "oneLineDefinition": "콘텐츠 시청 유지율 또는 재방문 유지율", "tags": ["지표", "분석"], "parent": "크리에이터 분석" },
+    { "termKo": "썸네일 최적화", "termEn": "Thumbnail Optimization", "level2": "콘텐츠", "level3": "제작", "oneLineDefinition": "클릭률 향상을 위해 썸네일 디자인을 개선하는 작업", "tags": ["콘텐츠", "CTR"], "parent": "콘텐츠 전략" },
+    { "termKo": "콘텐츠 캘린더", "termEn": "Content Calendar", "level2": "콘텐츠", "level3": "운영", "oneLineDefinition": "게시 주제·일정·채널을 체계화한 운영 계획", "tags": ["운영", "계획"], "parent": "콘텐츠 전략" },
+    { "termKo": "크로스포스팅", "termEn": "Cross Posting", "level2": "콘텐츠", "level3": "배포", "oneLineDefinition": "하나의 콘텐츠를 여러 플랫폼에 맞게 재배포하는 전략", "tags": ["배포", "채널"], "parent": "콘텐츠 배포" },
+    { "termKo": "쇼츠", "termEn": "Short-form Video", "level2": "콘텐츠", "level3": "형식", "oneLineDefinition": "짧은 길이의 세로형 영상 포맷", "tags": ["영상", "포맷"], "parent": "콘텐츠 형식" },
+    { "termKo": "롱폼", "termEn": "Long-form Content", "level2": "콘텐츠", "level3": "형식", "oneLineDefinition": "깊이 있는 설명과 스토리텔링에 적합한 장형 콘텐츠", "tags": ["콘텐츠", "포맷"], "parent": "콘텐츠 형식" },
+    { "termKo": "라이브 커머스", "termEn": "Live Commerce", "level2": "수익화", "level3": "실행", "oneLineDefinition": "실시간 방송과 즉시 구매를 결합한 판매 방식", "tags": ["커머스", "라이브"], "parent": "수익화 전략" },
+    { "termKo": "팬 미팅", "termEn": "Fan Meeting", "level2": "커뮤니티", "level3": "운영", "oneLineDefinition": "오프라인/온라인으로 팬과 직접 소통하는 이벤트", "tags": ["팬덤", "이벤트"], "parent": "커뮤니티 운영" },
+    { "termKo": "IP 확장", "termEn": "IP Expansion", "level2": "비즈니스", "level3": "전략", "oneLineDefinition": "콘텐츠 자산을 굿즈·출판·콜라보 등으로 확장하는 전략", "tags": ["IP", "확장"], "parent": "브랜드 전략" },
+    { "termKo": "MCN", "termEn": "Multi-Channel Network", "level2": "비즈니스", "level3": "운영", "oneLineDefinition": "크리에이터를 관리·지원·수익화하는 네트워크 조직", "tags": ["운영", "파트너"], "parent": "크리에이터 비즈니스" }
+  ]
+}

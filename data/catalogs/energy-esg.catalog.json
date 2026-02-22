@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "energy-esg",
+  "domainNameKo": "에너지 / 스마트팩토리 / ESG",
+  "defaultParent": "지속가능 경영",
+  "terms": [
+    { "termKo": "탄소배출량", "termEn": "Carbon Emissions", "level2": "ESG", "level3": "환경", "oneLineDefinition": "활동 과정에서 배출되는 온실가스 총량", "tags": ["탄소", "환경"], "parent": "기후 리스크" },
+    { "termKo": "스코프 1", "termEn": "Scope 1", "level2": "ESG", "level3": "환경", "oneLineDefinition": "기업이 직접 통제하는 배출원에서 발생하는 배출", "tags": ["탄소", "회계"], "parent": "탄소회계" },
+    { "termKo": "스코프 2", "termEn": "Scope 2", "level2": "ESG", "level3": "환경", "oneLineDefinition": "구매한 전력·열 사용에서 간접적으로 발생한 배출", "tags": ["탄소", "회계"], "parent": "탄소회계" },
+    { "termKo": "스코프 3", "termEn": "Scope 3", "level2": "ESG", "level3": "환경", "oneLineDefinition": "공급망과 제품 사용 등 가치사슬 전반에서 발생한 간접 배출", "tags": ["공급망", "탄소"], "parent": "탄소회계" },
+    { "termKo": "RE100", "termEn": "RE100", "level2": "에너지", "level3": "전략", "oneLineDefinition": "사용 전력 100%를 재생에너지로 전환하는 글로벌 이니셔티브", "tags": ["재생에너지", "전략"], "parent": "에너지 전환" },
+    { "termKo": "탄소중립", "termEn": "Carbon Neutrality", "level2": "ESG", "level3": "전략", "oneLineDefinition": "배출량과 제거량을 균형시켜 순배출을 0으로 만드는 목표", "tags": ["전략", "탄소"], "parent": "기후 전략" },
+    { "termKo": "LCA", "termEn": "Life Cycle Assessment", "level2": "ESG", "level3": "환경", "oneLineDefinition": "제품 전 생애주기 환경 영향을 정량 평가하는 방법", "tags": ["평가", "환경"], "parent": "환경 영향평가" },
+    { "termKo": "에너지 관리 시스템", "termEn": "EMS", "level2": "에너지", "level3": "운영", "oneLineDefinition": "에너지 사용을 측정·제어·최적화하는 시스템", "tags": ["에너지", "시스템"], "parent": "에너지 운영" },
+    { "termKo": "스마트 미터", "termEn": "Smart Meter", "level2": "에너지", "level3": "인프라", "oneLineDefinition": "전력 사용량을 실시간 측정·전송하는 계량 장치", "tags": ["계측", "인프라"], "parent": "에너지 인프라" },
+    { "termKo": "수요반응", "termEn": "Demand Response", "level2": "에너지", "level3": "운영", "oneLineDefinition": "전력 수요를 시간대별로 조정해 전력망 효율을 높이는 제도", "tags": ["전력망", "운영"], "parent": "에너지 운영" },
+    { "termKo": "예지보전", "termEn": "Predictive Maintenance", "level2": "스마트팩토리", "level3": "운영", "oneLineDefinition": "설비 데이터를 분석해 고장 전 유지보수를 수행하는 방식", "tags": ["설비", "AI"], "parent": "스마트팩토리" },
+    { "termKo": "디지털 트윈", "termEn": "Digital Twin", "level2": "스마트팩토리", "level3": "운영", "oneLineDefinition": "현실 설비를 디지털 모델로 복제해 시뮬레이션하는 기술", "tags": ["시뮬레이션", "설비"], "parent": "스마트팩토리" },
+    { "termKo": "SCADA", "termEn": "SCADA", "level2": "스마트팩토리", "level3": "인프라", "oneLineDefinition": "산업 설비를 원격 감시·제어하는 시스템", "tags": ["제어", "설비"], "parent": "산업 자동화" },
+    { "termKo": "MES", "termEn": "Manufacturing Execution System", "level2": "스마트팩토리", "level3": "운영", "oneLineDefinition": "생산 현장 작업·품질·이력을 실시간 관리하는 시스템", "tags": ["생산", "시스템"], "parent": "산업 자동화" },
+    { "termKo": "OEE", "termEn": "Overall Equipment Effectiveness", "level2": "스마트팩토리", "level3": "지표", "oneLineDefinition": "설비 종합 효율을 가동률·성능·품질로 측정하는 지표", "tags": ["지표", "생산"], "parent": "생산 지표" },
+    { "termKo": "폐기물 관리", "termEn": "Waste Management", "level2": "ESG", "level3": "환경", "oneLineDefinition": "폐기물 발생·재활용·처리 과정을 체계적으로 관리하는 활동", "tags": ["환경", "운영"], "parent": "환경 관리" },
+    { "termKo": "순환경제", "termEn": "Circular Economy", "level2": "ESG", "level3": "전략", "oneLineDefinition": "자원 순환과 재사용 중심으로 가치사슬을 설계하는 경제 모델", "tags": ["전략", "지속가능"], "parent": "지속가능 전략" },
+    { "termKo": "ESG 공시", "termEn": "ESG Disclosure", "level2": "ESG", "level3": "거버넌스", "oneLineDefinition": "환경·사회·지배구조 성과를 이해관계자에게 공개하는 보고 체계", "tags": ["공시", "거버넌스"], "parent": "지속가능 경영" },
+    { "termKo": "공급망 탄소", "termEn": "Supply Chain Carbon", "level2": "ESG", "level3": "환경", "oneLineDefinition": "공급망 활동에서 발생하는 탄소 배출량", "tags": ["공급망", "탄소"], "parent": "탄소회계" },
+    { "termKo": "그린워싱", "termEn": "Greenwashing", "level2": "ESG", "level3": "거버넌스", "oneLineDefinition": "실질 개선 없이 친환경 이미지만 과장하는 행위", "tags": ["리스크", "거버넌스"], "parent": "ESG 리스크" }
+  ]
+}

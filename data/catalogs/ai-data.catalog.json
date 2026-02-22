@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "ai-data",
+  "domainNameKo": "AI / 데이터 사이언스",
+  "defaultParent": "데이터 과학",
+  "terms": [
+    { "termKo": "머신러닝", "termEn": "Machine Learning", "level2": "AI", "level3": "모델링", "oneLineDefinition": "데이터로부터 패턴을 학습해 예측/판단을 수행하는 알고리즘 분야", "tags": ["AI", "모델"], "parent": "인공지능" },
+    { "termKo": "딥러닝", "termEn": "Deep Learning", "level2": "AI", "level3": "모델링", "oneLineDefinition": "다층 신경망을 이용해 복잡한 패턴을 학습하는 머신러닝 기법", "tags": ["신경망", "AI"], "parent": "머신러닝" },
+    { "termKo": "지도학습", "termEn": "Supervised Learning", "level2": "AI", "level3": "모델링", "oneLineDefinition": "정답 라벨이 있는 데이터로 모델을 학습하는 방식", "tags": ["학습", "라벨"], "parent": "머신러닝" },
+    { "termKo": "비지도학습", "termEn": "Unsupervised Learning", "level2": "AI", "level3": "모델링", "oneLineDefinition": "라벨 없이 데이터 구조를 찾는 학습 방식", "tags": ["클러스터링", "데이터"], "parent": "머신러닝" },
+    { "termKo": "강화학습", "termEn": "Reinforcement Learning", "level2": "AI", "level3": "모델링", "oneLineDefinition": "보상 신호를 기반으로 행동 정책을 학습하는 방식", "tags": ["에이전트", "보상"], "parent": "머신러닝" },
+    { "termKo": "피처 엔지니어링", "termEn": "Feature Engineering", "level2": "데이터", "level3": "전처리", "oneLineDefinition": "모델 성능을 높이기 위해 입력 변수를 가공·생성하는 작업", "tags": ["전처리", "모델"], "parent": "데이터 전처리" },
+    { "termKo": "정규화", "termEn": "Normalization", "level2": "데이터", "level3": "전처리", "oneLineDefinition": "특성 스케일을 조정해 학습 안정성을 높이는 변환", "tags": ["전처리", "스케일"], "parent": "데이터 전처리" },
+    { "termKo": "표준화", "termEn": "Standardization", "level2": "데이터", "level3": "전처리", "oneLineDefinition": "평균과 표준편차 기준으로 데이터를 변환하는 스케일링", "tags": ["전처리", "스케일"], "parent": "데이터 전처리" },
+    { "termKo": "교차검증", "termEn": "Cross Validation", "level2": "AI", "level3": "평가", "oneLineDefinition": "데이터 분할을 반복해 모델 일반화 성능을 검증하는 방법", "tags": ["평가", "검증"], "parent": "모델 평가" },
+    { "termKo": "정밀도", "termEn": "Precision", "level2": "AI", "level3": "평가", "oneLineDefinition": "양성 예측 중 실제 양성 비율을 나타내는 분류 지표", "tags": ["평가", "분류"], "parent": "모델 평가" },
+    { "termKo": "재현율", "termEn": "Recall", "level2": "AI", "level3": "평가", "oneLineDefinition": "실제 양성 중 올바르게 탐지한 비율", "tags": ["평가", "분류"], "parent": "모델 평가" },
+    { "termKo": "F1 스코어", "termEn": "F1 Score", "level2": "AI", "level3": "평가", "oneLineDefinition": "정밀도와 재현율의 조화평균으로 분류 성능을 평가하는 지표", "tags": ["평가", "분류"], "parent": "모델 평가" },
+    { "termKo": "오버피팅", "termEn": "Overfitting", "level2": "AI", "level3": "평가", "oneLineDefinition": "학습 데이터에는 맞지만 실제 데이터에 성능이 떨어지는 상태", "tags": ["일반화", "리스크"], "parent": "모델 리스크" },
+    { "termKo": "언더피팅", "termEn": "Underfitting", "level2": "AI", "level3": "평가", "oneLineDefinition": "모델 복잡도가 낮아 학습 데이터조차 충분히 설명하지 못하는 상태", "tags": ["일반화", "리스크"], "parent": "모델 리스크" },
+    { "termKo": "하이퍼파라미터", "termEn": "Hyperparameter", "level2": "AI", "level3": "모델링", "oneLineDefinition": "학습 전에 설정되는 모델 제어 변수", "tags": ["튜닝", "모델"], "parent": "모델링" },
+    { "termKo": "그리드서치", "termEn": "Grid Search", "level2": "AI", "level3": "모델링", "oneLineDefinition": "하이퍼파라미터 조합을 탐색해 최적값을 찾는 방법", "tags": ["튜닝", "최적화"], "parent": "하이퍼파라미터" },
+    { "termKo": "LLM", "termEn": "Large Language Model", "level2": "AI", "level3": "응용", "oneLineDefinition": "대규모 텍스트로 학습된 언어 생성 모델", "tags": ["생성형AI", "NLP"], "parent": "생성형 AI" },
+    { "termKo": "임베딩", "termEn": "Embedding", "level2": "AI", "level3": "응용", "oneLineDefinition": "텍스트/이미지 등을 벡터로 표현해 의미 유사도를 계산하는 표현", "tags": ["벡터", "검색"], "parent": "생성형 AI" },
+    { "termKo": "RAG", "termEn": "Retrieval-Augmented Generation", "level2": "AI", "level3": "응용", "oneLineDefinition": "외부 지식 검색 결과를 결합해 생성 품질을 높이는 아키텍처", "tags": ["생성형AI", "검색"], "parent": "생성형 AI" },
+    { "termKo": "프롬프트 엔지니어링", "termEn": "Prompt Engineering", "level2": "AI", "level3": "응용", "oneLineDefinition": "모델 출력을 개선하기 위해 입력 지시문을 설계·최적화하는 작업", "tags": ["프롬프트", "LLM"], "parent": "생성형 AI" }
+  ]
+}

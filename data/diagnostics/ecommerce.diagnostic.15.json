@@ -1,0 +1,237 @@
+[
+  {
+    "id": "ecommerce-diag-01",
+    "type": "multiple_choice",
+    "question": "전환율의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "방문자 중 구매로 이어진 비율",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "전환율의 핵심은 '방문자 중 구매로 이어진 비율'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-02",
+    "type": "ox",
+    "question": "장바구니 이탈은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "장바구니 이탈은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-03",
+    "type": "matching",
+    "question": "객단가와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "커머스 분석",
+      "재고회전율",
+      "안전재고"
+    ],
+    "answer": "커머스 분석",
+    "explanation": "객단가의 상위 개념은 커머스 분석입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-04",
+    "type": "multiple_choice",
+    "question": "재고회전율의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "재고가 일정 기간 동안 판매/소진된 속도 지표",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "재고회전율의 핵심은 '재고가 일정 기간 동안 판매/소진된 속도 지표'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-05",
+    "type": "ox",
+    "question": "안전재고은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "안전재고은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-06",
+    "type": "matching",
+    "question": "리드타임와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "공급망 관리",
+      "풀필먼트",
+      "피킹"
+    ],
+    "answer": "공급망 관리",
+    "explanation": "리드타임의 상위 개념은 공급망 관리입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-07",
+    "type": "multiple_choice",
+    "question": "풀필먼트의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "주문 접수부터 피킹·패킹·출고까지 이행하는 과정",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "풀필먼트의 핵심은 '주문 접수부터 피킹·패킹·출고까지 이행하는 과정'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-08",
+    "type": "ox",
+    "question": "피킹은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "피킹은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-09",
+    "type": "matching",
+    "question": "패킹와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "풀필먼트",
+      "라스트마일",
+      "반품율"
+    ],
+    "answer": "풀필먼트",
+    "explanation": "패킹의 상위 개념은 풀필먼트입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-10",
+    "type": "multiple_choice",
+    "question": "라스트마일의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "물류 허브에서 최종 고객까지 전달하는 마지막 배송 구간",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "라스트마일의 핵심은 '물류 허브에서 최종 고객까지 전달하는 마지막 배송 구간'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-11",
+    "type": "ox",
+    "question": "반품율은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "반품율은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-12",
+    "type": "matching",
+    "question": "OMS와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "커머스 시스템",
+      "WMS",
+      "TMS"
+    ],
+    "answer": "커머스 시스템",
+    "explanation": "OMS의 상위 개념은 커머스 시스템입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-13",
+    "type": "multiple_choice",
+    "question": "WMS의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "입출고·재고·작업 동선을 관리하는 창고 운영 시스템",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "WMS의 핵심은 '입출고·재고·작업 동선을 관리하는 창고 운영 시스템'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-14",
+    "type": "ox",
+    "question": "TMS은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "TMS은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "ecommerce-diag-15",
+    "type": "matching",
+    "question": "수요예측와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "공급망 관리",
+      "발주 최적화",
+      "드롭쉬핑"
+    ],
+    "answer": "공급망 관리",
+    "explanation": "수요예측의 상위 개념은 공급망 관리입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  }
+]

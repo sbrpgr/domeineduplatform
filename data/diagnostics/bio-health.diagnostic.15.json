@@ -1,0 +1,237 @@
+[
+  {
+    "id": "bio-health-diag-01",
+    "type": "multiple_choice",
+    "question": "임상시험의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "의약품/치료법의 안전성과 유효성을 사람 대상으로 검증하는 연구",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "임상시험의 핵심은 '의약품/치료법의 안전성과 유효성을 사람 대상으로 검증하는 연구'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-02",
+    "type": "ox",
+    "question": "무작위배정은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "무작위배정은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-03",
+    "type": "matching",
+    "question": "이중맹검와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "임상시험",
+      "1차 평가지표",
+      "부작용"
+    ],
+    "answer": "임상시험",
+    "explanation": "이중맹검의 상위 개념은 임상시험입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-04",
+    "type": "multiple_choice",
+    "question": "1차 평가지표의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "임상시험 성공 여부를 판단하는 핵심 결과 지표",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "1차 평가지표의 핵심은 '임상시험 성공 여부를 판단하는 핵심 결과 지표'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-05",
+    "type": "ox",
+    "question": "부작용은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "부작용은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-06",
+    "type": "matching",
+    "question": "약물감시와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "헬스케어 안전",
+      "전자건강기록",
+      "의료영상"
+    ],
+    "answer": "헬스케어 안전",
+    "explanation": "약물감시의 상위 개념은 헬스케어 안전입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-07",
+    "type": "multiple_choice",
+    "question": "전자건강기록의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "환자 진료 정보를 디지털 형태로 관리하는 기록 시스템",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "전자건강기록의 핵심은 '환자 진료 정보를 디지털 형태로 관리하는 기록 시스템'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-08",
+    "type": "ox",
+    "question": "의료영상은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "의료영상은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-09",
+    "type": "matching",
+    "question": "원격진료와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "디지털 헬스케어",
+      "디지털 치료제",
+      "생체신호"
+    ],
+    "answer": "디지털 헬스케어",
+    "explanation": "원격진료의 상위 개념은 디지털 헬스케어입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-10",
+    "type": "multiple_choice",
+    "question": "디지털 치료제의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "소프트웨어 기반으로 질병 예방·관리·치료를 지원하는 의료 제품",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "디지털 치료제의 핵심은 '소프트웨어 기반으로 질병 예방·관리·치료를 지원하는 의료 제품'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-11",
+    "type": "ox",
+    "question": "생체신호은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "생체신호은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-12",
+    "type": "matching",
+    "question": "웨어러블와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "디지털 헬스케어",
+      "정밀의료",
+      "바이오마커"
+    ],
+    "answer": "디지털 헬스케어",
+    "explanation": "웨어러블의 상위 개념은 디지털 헬스케어입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-13",
+    "type": "multiple_choice",
+    "question": "정밀의료의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "유전·환경·생활습관 정보를 기반으로 개인 맞춤 치료를 제공하는 접근",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "정밀의료의 핵심은 '유전·환경·생활습관 정보를 기반으로 개인 맞춤 치료를 제공하는 접근'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-14",
+    "type": "ox",
+    "question": "바이오마커은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "바이오마커은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "bio-health-diag-15",
+    "type": "matching",
+    "question": "유전체 분석와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "정밀의료",
+      "의료기기 인증",
+      "HIPAA"
+    ],
+    "answer": "정밀의료",
+    "explanation": "유전체 분석의 상위 개념은 정밀의료입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  }
+]

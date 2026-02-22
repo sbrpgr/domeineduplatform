@@ -1,0 +1,237 @@
+[
+  {
+    "id": "creator-diag-01",
+    "type": "multiple_choice",
+    "question": "크리에이터 이코노미의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "개인이 콘텐츠·팬덤·플랫폼을 통해 수익을 창출하는 경제 생태계",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "크리에이터 이코노미의 핵심은 '개인이 콘텐츠·팬덤·플랫폼을 통해 수익을 창출하는 경제 생태계'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-02",
+    "type": "ox",
+    "question": "팬덤은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "팬덤은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-03",
+    "type": "matching",
+    "question": "구독 모델와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "수익화 전략",
+      "멤버십",
+      "후원"
+    ],
+    "answer": "수익화 전략",
+    "explanation": "구독 모델의 상위 개념은 수익화 전략입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-04",
+    "type": "multiple_choice",
+    "question": "멤버십의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "유료 회원에게 독점 콘텐츠·혜택을 제공하는 운영 방식",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "멤버십의 핵심은 '유료 회원에게 독점 콘텐츠·혜택을 제공하는 운영 방식'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-05",
+    "type": "ox",
+    "question": "후원은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "후원은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-06",
+    "type": "matching",
+    "question": "브랜드 딜와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "후원",
+      "애드센스",
+      "CPM"
+    ],
+    "answer": "후원",
+    "explanation": "브랜드 딜의 상위 개념은 후원입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-07",
+    "type": "multiple_choice",
+    "question": "애드센스의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "콘텐츠 광고 노출에 따라 수익을 배분받는 모델",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "애드센스의 핵심은 '콘텐츠 광고 노출에 따라 수익을 배분받는 모델'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-08",
+    "type": "ox",
+    "question": "CPM은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "CPM은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-09",
+    "type": "matching",
+    "question": "CPV와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "광고 지표",
+      "인게이지먼트",
+      "리텐션"
+    ],
+    "answer": "광고 지표",
+    "explanation": "CPV의 상위 개념은 광고 지표입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-10",
+    "type": "multiple_choice",
+    "question": "인게이지먼트의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "좋아요·댓글·공유 등 사용자 상호작용의 총합",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "인게이지먼트의 핵심은 '좋아요·댓글·공유 등 사용자 상호작용의 총합'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-11",
+    "type": "ox",
+    "question": "리텐션은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "리텐션은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-12",
+    "type": "matching",
+    "question": "썸네일 최적화와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "콘텐츠 전략",
+      "콘텐츠 캘린더",
+      "크로스포스팅"
+    ],
+    "answer": "콘텐츠 전략",
+    "explanation": "썸네일 최적화의 상위 개념은 콘텐츠 전략입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-13",
+    "type": "multiple_choice",
+    "question": "콘텐츠 캘린더의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "게시 주제·일정·채널을 체계화한 운영 계획",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "콘텐츠 캘린더의 핵심은 '게시 주제·일정·채널을 체계화한 운영 계획'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-14",
+    "type": "ox",
+    "question": "크로스포스팅은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "크로스포스팅은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "creator-diag-15",
+    "type": "matching",
+    "question": "쇼츠와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "콘텐츠 형식",
+      "롱폼",
+      "라이브 커머스"
+    ],
+    "answer": "콘텐츠 형식",
+    "explanation": "쇼츠의 상위 개념은 콘텐츠 형식입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  }
+]

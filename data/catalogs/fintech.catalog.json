@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "fintech",
+  "domainNameKo": "핀테크 / 금융",
+  "defaultParent": "금융 시스템",
+  "terms": [
+    { "termKo": "결제 게이트웨이", "termEn": "Payment Gateway", "level2": "결제", "level3": "인프라", "oneLineDefinition": "결제 요청을 승인·정산 시스템으로 전달하는 중계 계층", "tags": ["결제", "인프라"], "parent": "결제 시스템" },
+    { "termKo": "정산", "termEn": "Settlement", "level2": "결제", "level3": "운영", "oneLineDefinition": "거래 금액을 참여 주체 간에 확정·분배하는 절차", "tags": ["결제", "운영"], "parent": "결제 시스템" },
+    { "termKo": "KYC", "termEn": "Know Your Customer", "level2": "컴플라이언스", "level3": "고객검증", "oneLineDefinition": "고객 신원과 위험도를 확인하는 금융 의무 절차", "tags": ["규제", "고객"], "parent": "규제 준수" },
+    { "termKo": "AML", "termEn": "Anti-Money Laundering", "level2": "컴플라이언스", "level3": "거래감시", "oneLineDefinition": "자금세탁 방지를 위한 거래 모니터링 체계", "tags": ["규제", "감시"], "parent": "규제 준수" },
+    { "termKo": "리스크 스코어링", "termEn": "Risk Scoring", "level2": "심사", "level3": "모델", "oneLineDefinition": "거래/고객 위험도를 수치화해 의사결정에 반영하는 방식", "tags": ["리스크", "모델"], "parent": "리스크 관리" },
+    { "termKo": "신용평가", "termEn": "Credit Scoring", "level2": "심사", "level3": "모델", "oneLineDefinition": "상환 능력을 기반으로 신용도를 산출하는 평가", "tags": ["신용", "평가"], "parent": "리스크 관리" },
+    { "termKo": "오픈뱅킹", "termEn": "Open Banking", "level2": "API", "level3": "연동", "oneLineDefinition": "은행 데이터를 표준 API로 외부 서비스와 공유하는 체계", "tags": ["API", "은행"], "parent": "금융 API" },
+    { "termKo": "가상계좌", "termEn": "Virtual Account", "level2": "결제", "level3": "계좌", "oneLineDefinition": "고객 식별 목적의 임시 계좌번호를 발급하는 방식", "tags": ["입금", "계좌"], "parent": "결제 시스템" },
+    { "termKo": "차지백", "termEn": "Chargeback", "level2": "결제", "level3": "분쟁", "oneLineDefinition": "카드 결제에 대한 이의 제기로 거래를 취소·환급하는 절차", "tags": ["분쟁", "환불"], "parent": "결제 운영" },
+    { "termKo": "PG", "termEn": "Payment Gateway Provider", "level2": "결제", "level3": "인프라", "oneLineDefinition": "결제 승인·연동 서비스를 제공하는 사업자", "tags": ["결제", "사업자"], "parent": "결제 시스템" },
+    { "termKo": "전표 매입", "termEn": "Capture", "level2": "결제", "level3": "운영", "oneLineDefinition": "승인된 결제를 실제 청구 대상으로 확정하는 단계", "tags": ["카드", "정산"], "parent": "결제 운영" },
+    { "termKo": "지급결제", "termEn": "Payment Processing", "level2": "결제", "level3": "운영", "oneLineDefinition": "지불 수단별 거래 처리와 정산 흐름 전체", "tags": ["결제", "프로세스"], "parent": "결제 시스템" },
+    { "termKo": "부정거래 탐지", "termEn": "Fraud Detection", "level2": "보안", "level3": "탐지", "oneLineDefinition": "이상 거래 패턴을 탐지해 피해를 차단하는 체계", "tags": ["보안", "탐지"], "parent": "리스크 관리" },
+    { "termKo": "거래 한도", "termEn": "Transaction Limit", "level2": "보안", "level3": "정책", "oneLineDefinition": "위험 통제를 위해 거래 금액·횟수 상한을 설정하는 정책", "tags": ["보안", "정책"], "parent": "리스크 관리" },
+    { "termKo": "원장", "termEn": "Ledger", "level2": "정산", "level3": "회계", "oneLineDefinition": "거래 내역을 불변성 있게 기록하는 금융 장부", "tags": ["정산", "회계"], "parent": "금융 데이터" },
+    { "termKo": "이중기장", "termEn": "Double-entry", "level2": "정산", "level3": "회계", "oneLineDefinition": "차변·대변을 동시에 기록해 회계 정확성을 확보하는 방식", "tags": ["회계", "원장"], "parent": "원장" },
+    { "termKo": "송금", "termEn": "Remittance", "level2": "결제", "level3": "계좌", "oneLineDefinition": "계좌 간 자금을 이전하는 금융 거래", "tags": ["이체", "계좌"], "parent": "결제 시스템" },
+    { "termKo": "환전", "termEn": "FX Exchange", "level2": "외환", "level3": "거래", "oneLineDefinition": "통화를 다른 통화로 전환하는 거래", "tags": ["외환", "거래"], "parent": "외환 서비스" },
+    { "termKo": "금리", "termEn": "Interest Rate", "level2": "상품", "level3": "지표", "oneLineDefinition": "자금 대여·예치에 적용되는 이자 비율", "tags": ["지표", "금융"], "parent": "금융 상품" },
+    { "termKo": "예대마진", "termEn": "Net Interest Margin", "level2": "상품", "level3": "지표", "oneLineDefinition": "대출 이자수익과 예금 이자비용의 차이에서 발생하는 수익률", "tags": ["수익성", "지표"], "parent": "금융 지표" }
+  ]
+}

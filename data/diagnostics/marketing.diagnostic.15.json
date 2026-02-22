@@ -1,0 +1,237 @@
+[
+  {
+    "id": "marketing-diag-01",
+    "type": "multiple_choice",
+    "question": "퍼널의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "고객 전환 단계를 정의하고 이탈률을 분석하는 프레임",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "퍼널의 핵심은 '고객 전환 단계를 정의하고 이탈률을 분석하는 프레임'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-02",
+    "type": "ox",
+    "question": "CAC은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "CAC은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-03",
+    "type": "matching",
+    "question": "LTV와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "마케팅 지표",
+      "ROAS",
+      "CTR"
+    ],
+    "answer": "마케팅 지표",
+    "explanation": "LTV의 상위 개념은 마케팅 지표입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-04",
+    "type": "multiple_choice",
+    "question": "ROAS의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "광고비 대비 매출 효율을 나타내는 성과 지표",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "ROAS의 핵심은 '광고비 대비 매출 효율을 나타내는 성과 지표'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-05",
+    "type": "ox",
+    "question": "CTR은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "CTR은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-06",
+    "type": "matching",
+    "question": "CVR와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "마케팅 지표",
+      "리텐션",
+      "코호트 분석"
+    ],
+    "answer": "마케팅 지표",
+    "explanation": "CVR의 상위 개념은 마케팅 지표입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-07",
+    "type": "multiple_choice",
+    "question": "리텐션의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "일정 기간 후에도 사용자가 재방문/재사용하는 비율",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "리텐션의 핵심은 '일정 기간 후에도 사용자가 재방문/재사용하는 비율'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-08",
+    "type": "ox",
+    "question": "코호트 분석은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "코호트 분석은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-09",
+    "type": "matching",
+    "question": "AARRR와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "그로스 마케팅",
+      "세그먼트",
+      "퍼스널라이제이션"
+    ],
+    "answer": "그로스 마케팅",
+    "explanation": "AARRR의 상위 개념은 그로스 마케팅입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-10",
+    "type": "multiple_choice",
+    "question": "세그먼트의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "특정 특성을 기준으로 고객 집단을 구분한 분류 단위",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "세그먼트의 핵심은 '특정 특성을 기준으로 고객 집단을 구분한 분류 단위'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-11",
+    "type": "ox",
+    "question": "퍼스널라이제이션은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "퍼스널라이제이션은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-12",
+    "type": "matching",
+    "question": "온드미디어와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "미디어 전략",
+      "언드미디어",
+      "페이드미디어"
+    ],
+    "answer": "미디어 전략",
+    "explanation": "온드미디어의 상위 개념은 미디어 전략입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-13",
+    "type": "multiple_choice",
+    "question": "언드미디어의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "입소문·PR 등 외부 확산으로 얻는 노출 채널",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "언드미디어의 핵심은 '입소문·PR 등 외부 확산으로 얻는 노출 채널'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-14",
+    "type": "ox",
+    "question": "페이드미디어은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "페이드미디어은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "marketing-diag-15",
+    "type": "matching",
+    "question": "브랜드 포지셔닝와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "브랜드 전략",
+      "메시지 하우스",
+      "랜딩페이지"
+    ],
+    "answer": "브랜드 전략",
+    "explanation": "브랜드 포지셔닝의 상위 개념은 브랜드 전략입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  }
+]

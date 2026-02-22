@@ -1,0 +1,12002 @@
+[
+  {
+    "from": "전환율",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율",
+    "to": "장바구니 이탈",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율",
+    "to": "객단가",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈",
+    "to": "객단가",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈",
+    "to": "재고회전율",
+    "relation": "child"
+  },
+  {
+    "from": "객단가",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가",
+    "to": "재고회전율",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가",
+    "to": "안전재고",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율",
+    "to": "안전재고",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율",
+    "to": "리드타임",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고",
+    "to": "리드타임",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고",
+    "to": "풀필먼트",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임",
+    "to": "풀필먼트",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임",
+    "to": "피킹",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트",
+    "to": "피킹",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트",
+    "to": "패킹",
+    "relation": "child"
+  },
+  {
+    "from": "피킹",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹",
+    "to": "패킹",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹",
+    "to": "라스트마일",
+    "relation": "child"
+  },
+  {
+    "from": "패킹",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹",
+    "to": "라스트마일",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹",
+    "to": "반품율",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일",
+    "to": "반품율",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일",
+    "to": "OMS",
+    "relation": "child"
+  },
+  {
+    "from": "반품율",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율",
+    "to": "OMS",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율",
+    "to": "WMS",
+    "relation": "child"
+  },
+  {
+    "from": "OMS",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS",
+    "to": "WMS",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS",
+    "to": "TMS",
+    "relation": "child"
+  },
+  {
+    "from": "WMS",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS",
+    "to": "TMS",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS",
+    "to": "수요예측",
+    "relation": "child"
+  },
+  {
+    "from": "TMS",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS",
+    "to": "수요예측",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS",
+    "to": "발주 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측",
+    "to": "발주 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측",
+    "to": "드롭쉬핑",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화",
+    "to": "드롭쉬핑",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화",
+    "to": "SKU",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑",
+    "to": "SKU",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑",
+    "to": "카테고리 매니지먼트",
+    "relation": "child"
+  },
+  {
+    "from": "SKU",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU",
+    "to": "카테고리 매니지먼트",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU",
+    "to": "프로모션",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트",
+    "to": "프로모션",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율 기초",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율 기초",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈 실무",
+    "relation": "child"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "장바구니 이탈 실무",
+    "relation": "sibling"
+  },
+  {
+    "from": "전환율 기초",
+    "to": "객단가 고급",
+    "relation": "child"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "객단가 고급",
+    "relation": "sibling"
+  },
+  {
+    "from": "장바구니 이탈 실무",
+    "to": "재고회전율 확장",
+    "relation": "child"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "재고회전율 확장",
+    "relation": "sibling"
+  },
+  {
+    "from": "객단가 고급",
+    "to": "안전재고 운영",
+    "relation": "child"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "안전재고 운영",
+    "relation": "sibling"
+  },
+  {
+    "from": "재고회전율 확장",
+    "to": "리드타임 최적화",
+    "relation": "child"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "리드타임 최적화",
+    "relation": "sibling"
+  },
+  {
+    "from": "안전재고 운영",
+    "to": "풀필먼트 전략",
+    "relation": "child"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "풀필먼트 전략",
+    "relation": "sibling"
+  },
+  {
+    "from": "리드타임 최적화",
+    "to": "피킹 아키텍처",
+    "relation": "child"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "주문 이행",
+    "relation": "parent"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "피킹 아키텍처",
+    "relation": "sibling"
+  },
+  {
+    "from": "풀필먼트 전략",
+    "to": "패킹 품질",
+    "relation": "child"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "패킹 품질",
+    "relation": "sibling"
+  },
+  {
+    "from": "피킹 아키텍처",
+    "to": "라스트마일 보안",
+    "relation": "child"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "풀필먼트",
+    "relation": "parent"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "라스트마일 보안",
+    "relation": "sibling"
+  },
+  {
+    "from": "패킹 품질",
+    "to": "반품율 자동화",
+    "relation": "child"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "배송 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "반품율 자동화",
+    "relation": "sibling"
+  },
+  {
+    "from": "라스트마일 보안",
+    "to": "OMS 분석",
+    "relation": "child"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "커머스 분석",
+    "relation": "parent"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "OMS 분석",
+    "relation": "sibling"
+  },
+  {
+    "from": "반품율 자동화",
+    "to": "WMS 설계",
+    "relation": "child"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "커머스 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "WMS 설계",
+    "relation": "sibling"
+  },
+  {
+    "from": "OMS 분석",
+    "to": "TMS 검증",
+    "relation": "child"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "TMS 검증",
+    "relation": "sibling"
+  },
+  {
+    "from": "WMS 설계",
+    "to": "수요예측 표준",
+    "relation": "child"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "물류 시스템",
+    "relation": "parent"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "수요예측 표준",
+    "relation": "sibling"
+  },
+  {
+    "from": "TMS 검증",
+    "to": "발주 최적화 관리",
+    "relation": "child"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "발주 최적화 관리",
+    "relation": "sibling"
+  },
+  {
+    "from": "수요예측 표준",
+    "to": "드롭쉬핑 응용",
+    "relation": "child"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "공급망 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "드롭쉬핑 응용",
+    "relation": "sibling"
+  },
+  {
+    "from": "발주 최적화 관리",
+    "to": "SKU 패턴",
+    "relation": "child"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "SKU 패턴",
+    "relation": "sibling"
+  },
+  {
+    "from": "드롭쉬핑 응용",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "child"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "재고 관리",
+    "relation": "parent"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "카테고리 매니지먼트 워크플로우",
+    "relation": "sibling"
+  },
+  {
+    "from": "SKU 패턴",
+    "to": "프로모션 가이드",
+    "relation": "child"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "프로모션 가이드",
+    "relation": "sibling"
+  },
+  {
+    "from": "카테고리 매니지먼트 워크플로우",
+    "to": "전환율",
+    "relation": "child"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "커머스 운영",
+    "relation": "parent"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "전환율",
+    "relation": "sibling"
+  },
+  {
+    "from": "프로모션 가이드",
+    "to": "장바구니 이탈",
+    "relation": "child"
+  }
+]

@@ -1,0 +1,62 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://domain-glossary.local/schemas/term.schema.json",
+  "title": "Domain Glossary Term",
+  "type": "object",
+  "required": [
+    "id",
+    "term_ko",
+    "term_en",
+    "domain",
+    "difficulty",
+    "one_line_definition",
+    "definitions",
+    "related_terms",
+    "source_urls",
+    "last_reviewed_at",
+    "reviewer"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "term_ko": { "type": "string", "minLength": 1 },
+    "term_en": { "type": "string", "minLength": 1 },
+    "pronunciation": { "type": "string" },
+    "domain": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["novice", "beginner", "intermediate", "advanced"]
+    },
+    "one_line_definition": { "type": "string", "maxLength": 100 },
+    "definitions": {
+      "type": "object",
+      "required": ["novice", "beginner", "intermediate", "advanced"],
+      "properties": {
+        "novice": { "type": "string" },
+        "beginner": { "type": "string" },
+        "intermediate": { "type": "string" },
+        "advanced": { "type": "string" }
+      }
+    },
+    "related_terms": {
+      "type": "object",
+      "required": ["parent", "sibling", "child"],
+      "properties": {
+        "parent": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "sibling": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "child": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "opposite": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "source_urls": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" },
+      "minItems": 2
+    },
+    "last_reviewed_at": { "type": "string", "format": "date" },
+    "reviewer": { "type": "string" }
+  }
+}

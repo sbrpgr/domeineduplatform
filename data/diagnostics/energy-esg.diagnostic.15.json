@@ -1,0 +1,237 @@
+[
+  {
+    "id": "energy-esg-diag-01",
+    "type": "multiple_choice",
+    "question": "탄소배출량의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "활동 과정에서 배출되는 온실가스 총량",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "탄소배출량의 핵심은 '활동 과정에서 배출되는 온실가스 총량'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-02",
+    "type": "ox",
+    "question": "스코프 1은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "스코프 1은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-03",
+    "type": "matching",
+    "question": "스코프 2와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "탄소회계",
+      "스코프 3",
+      "RE100"
+    ],
+    "answer": "탄소회계",
+    "explanation": "스코프 2의 상위 개념은 탄소회계입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-04",
+    "type": "multiple_choice",
+    "question": "스코프 3의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "공급망과 제품 사용 등 가치사슬 전반에서 발생한 간접 배출",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "스코프 3의 핵심은 '공급망과 제품 사용 등 가치사슬 전반에서 발생한 간접 배출'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-05",
+    "type": "ox",
+    "question": "RE100은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "RE100은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-06",
+    "type": "matching",
+    "question": "탄소중립와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "기후 전략",
+      "LCA",
+      "에너지 관리 시스템"
+    ],
+    "answer": "기후 전략",
+    "explanation": "탄소중립의 상위 개념은 기후 전략입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-07",
+    "type": "multiple_choice",
+    "question": "LCA의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "제품 전 생애주기 환경 영향을 정량 평가하는 방법",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "LCA의 핵심은 '제품 전 생애주기 환경 영향을 정량 평가하는 방법'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-08",
+    "type": "ox",
+    "question": "에너지 관리 시스템은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "에너지 관리 시스템은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-09",
+    "type": "matching",
+    "question": "스마트 미터와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "에너지 인프라",
+      "수요반응",
+      "예지보전"
+    ],
+    "answer": "에너지 인프라",
+    "explanation": "스마트 미터의 상위 개념은 에너지 인프라입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-10",
+    "type": "multiple_choice",
+    "question": "수요반응의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "전력 수요를 시간대별로 조정해 전력망 효율을 높이는 제도",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "수요반응의 핵심은 '전력 수요를 시간대별로 조정해 전력망 효율을 높이는 제도'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-11",
+    "type": "ox",
+    "question": "예지보전은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "예지보전은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-12",
+    "type": "matching",
+    "question": "디지털 트윈와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "스마트팩토리",
+      "SCADA",
+      "MES"
+    ],
+    "answer": "스마트팩토리",
+    "explanation": "디지털 트윈의 상위 개념은 스마트팩토리입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-13",
+    "type": "multiple_choice",
+    "question": "SCADA의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "산업 설비를 원격 감시·제어하는 시스템",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "SCADA의 핵심은 '산업 설비를 원격 감시·제어하는 시스템'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-14",
+    "type": "ox",
+    "question": "MES은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "MES은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "energy-esg-diag-15",
+    "type": "matching",
+    "question": "OEE와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "생산 지표",
+      "폐기물 관리",
+      "순환경제"
+    ],
+    "answer": "생산 지표",
+    "explanation": "OEE의 상위 개념은 생산 지표입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  }
+]

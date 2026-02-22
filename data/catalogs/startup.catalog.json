@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "startup",
+  "domainNameKo": "스타트업 / PM / 경영",
+  "defaultParent": "제품 경영",
+  "terms": [
+    { "termKo": "MVP", "termEn": "Minimum Viable Product", "level2": "PM", "level3": "전략", "oneLineDefinition": "가설 검증에 필요한 최소 기능만 담은 초기 제품", "tags": ["제품", "검증"], "parent": "제품 전략" },
+    { "termKo": "제품-시장 적합성", "termEn": "Product-Market Fit", "level2": "PM", "level3": "전략", "oneLineDefinition": "제품이 특정 시장의 문제를 충분히 해결해 수요를 확보한 상태", "tags": ["PMF", "전략"], "parent": "제품 전략" },
+    { "termKo": "북극성 지표", "termEn": "North Star Metric", "level2": "PM", "level3": "지표", "oneLineDefinition": "팀이 장기적으로 집중해야 하는 핵심 성장 지표", "tags": ["지표", "전략"], "parent": "제품 지표" },
+    { "termKo": "OKR", "termEn": "Objectives and Key Results", "level2": "경영", "level3": "운영", "oneLineDefinition": "목표와 핵심 결과를 연결해 실행 우선순위를 정렬하는 프레임", "tags": ["목표", "성과"], "parent": "조직 운영" },
+    { "termKo": "KPI", "termEn": "Key Performance Indicator", "level2": "경영", "level3": "운영", "oneLineDefinition": "성과 측정을 위해 지속 추적하는 핵심 지표", "tags": ["지표", "성과"], "parent": "성과 관리" },
+    { "termKo": "로드맵", "termEn": "Roadmap", "level2": "PM", "level3": "운영", "oneLineDefinition": "제품 목표와 일정, 우선순위를 시간축으로 정리한 계획", "tags": ["계획", "PM"], "parent": "제품 운영" },
+    { "termKo": "백로그", "termEn": "Backlog", "level2": "PM", "level3": "운영", "oneLineDefinition": "향후 개발 후보 작업을 우선순위로 정리한 목록", "tags": ["개발", "우선순위"], "parent": "제품 운영" },
+    { "termKo": "스프린트", "termEn": "Sprint", "level2": "PM", "level3": "운영", "oneLineDefinition": "일정 기간 단위로 목표를 설정해 실행하는 애자일 개발 주기", "tags": ["애자일", "개발"], "parent": "애자일" },
+    { "termKo": "회고", "termEn": "Retrospective", "level2": "PM", "level3": "운영", "oneLineDefinition": "반복 주기 종료 후 개선점을 도출하는 팀 학습 회의", "tags": ["애자일", "개선"], "parent": "애자일" },
+    { "termKo": "우선순위 매트릭스", "termEn": "Prioritization Matrix", "level2": "PM", "level3": "전략", "oneLineDefinition": "영향도와 노력도 기준으로 작업 우선순위를 평가하는 도구", "tags": ["우선순위", "의사결정"], "parent": "제품 전략" },
+    { "termKo": "RICE", "termEn": "RICE Scoring", "level2": "PM", "level3": "전략", "oneLineDefinition": "도달·영향·확신·노력 기준으로 아이템 우선순위를 계산하는 모델", "tags": ["우선순위", "모델"], "parent": "우선순위 매트릭스" },
+    { "termKo": "리스크 레지스터", "termEn": "Risk Register", "level2": "경영", "level3": "운영", "oneLineDefinition": "사업/제품 리스크를 식별·평가·대응 계획으로 관리하는 문서", "tags": ["리스크", "운영"], "parent": "리스크 관리" },
+    { "termKo": "런웨이", "termEn": "Runway", "level2": "경영", "level3": "재무", "oneLineDefinition": "현재 자금으로 추가 조달 없이 운영 가능한 기간", "tags": ["재무", "스타트업"], "parent": "재무 관리" },
+    { "termKo": "번레이트", "termEn": "Burn Rate", "level2": "경영", "level3": "재무", "oneLineDefinition": "매월 소진되는 순현금 규모", "tags": ["재무", "운영"], "parent": "재무 관리" },
+    { "termKo": "유닛 이코노믹스", "termEn": "Unit Economics", "level2": "경영", "level3": "재무", "oneLineDefinition": "고객·거래 단위당 수익성과 비용 구조를 분석하는 관점", "tags": ["수익성", "재무"], "parent": "재무 관리" },
+    { "termKo": "조직 설계", "termEn": "Org Design", "level2": "경영", "level3": "조직", "oneLineDefinition": "전략 실행에 맞춰 역할·책임·의사결정 구조를 설계하는 작업", "tags": ["조직", "리더십"], "parent": "조직 운영" },
+    { "termKo": "의사결정 로그", "termEn": "Decision Log", "level2": "PM", "level3": "운영", "oneLineDefinition": "핵심 의사결정의 배경·대안·결과를 기록해 재사용하는 문서", "tags": ["문서", "협업"], "parent": "제품 운영" },
+    { "termKo": "실험 문화", "termEn": "Experimentation Culture", "level2": "PM", "level3": "전략", "oneLineDefinition": "가설-실험-학습 루프로 의사결정하는 조직 운영 방식", "tags": ["실험", "조직"], "parent": "제품 전략" },
+    { "termKo": "고객 인터뷰", "termEn": "Customer Interview", "level2": "PM", "level3": "리서치", "oneLineDefinition": "고객 문제와 니즈를 정성적으로 파악하기 위한 인터뷰 방법", "tags": ["리서치", "고객"], "parent": "고객 발견" },
+    { "termKo": "문제-해결 적합성", "termEn": "Problem-Solution Fit", "level2": "PM", "level3": "전략", "oneLineDefinition": "정의한 문제에 제안한 해결책이 실제로 유효한지 검증된 상태", "tags": ["검증", "전략"], "parent": "제품 전략" }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "generated_at": "2026-02-20",
+  "domains": [
+    {
+      "slug": "ai-data",
+      "target": 1600,
+      "collected": 1600,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 240,
+        "beginner": 560,
+        "intermediate": 560,
+        "advanced": 240
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "bio-health",
+      "target": 900,
+      "collected": 900,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 135,
+        "beginner": 315,
+        "intermediate": 315,
+        "advanced": 135
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "creator",
+      "target": 800,
+      "collected": 800,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 120,
+        "beginner": 280,
+        "intermediate": 280,
+        "advanced": 120
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "design",
+      "target": 1400,
+      "collected": 1400,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 210,
+        "beginner": 490,
+        "intermediate": 490,
+        "advanced": 210
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "ecommerce",
+      "target": 800,
+      "collected": 800,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 120,
+        "beginner": 280,
+        "intermediate": 280,
+        "advanced": 120
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "energy-esg",
+      "target": 800,
+      "collected": 800,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 120,
+        "beginner": 280,
+        "intermediate": 280,
+        "advanced": 120
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "fintech",
+      "target": 1000,
+      "collected": 1000,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 150,
+        "beginner": 350,
+        "intermediate": 350,
+        "advanced": 150
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "game-xr",
+      "target": 800,
+      "collected": 800,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 120,
+        "beginner": 280,
+        "intermediate": 280,
+        "advanced": 120
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "it-dev",
+      "target": 2000,
+      "collected": 2000,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 300,
+        "beginner": 700,
+        "intermediate": 700,
+        "advanced": 300
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "legal",
+      "target": 900,
+      "collected": 900,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 135,
+        "beginner": 315,
+        "intermediate": 315,
+        "advanced": 135
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "marketing",
+      "target": 1000,
+      "collected": 1000,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 150,
+        "beginner": 350,
+        "intermediate": 350,
+        "advanced": 150
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    },
+    {
+      "slug": "startup",
+      "target": 1000,
+      "collected": 1000,
+      "completion_rate": 100,
+      "difficulty": {
+        "novice": 150,
+        "beginner": 350,
+        "intermediate": 350,
+        "advanced": 150
+      },
+      "difficulty_rate": {
+        "novice": 15,
+        "beginner": 35,
+        "intermediate": 35,
+        "advanced": 15
+      }
+    }
+  ],
+  "total_collected": 13000,
+  "total_target": 13000,
+  "total_completion_rate": 100
+}

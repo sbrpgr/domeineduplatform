@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-02-20",
+  "domains": [
+    {
+      "slug": "ai-data",
+      "count": 1600
+    },
+    {
+      "slug": "bio-health",
+      "count": 900
+    },
+    {
+      "slug": "creator",
+      "count": 800
+    },
+    {
+      "slug": "design",
+      "count": 1400
+    },
+    {
+      "slug": "ecommerce",
+      "count": 800
+    },
+    {
+      "slug": "energy-esg",
+      "count": 800
+    },
+    {
+      "slug": "fintech",
+      "count": 1000
+    },
+    {
+      "slug": "game-xr",
+      "count": 800
+    },
+    {
+      "slug": "it-dev",
+      "count": 2000
+    },
+    {
+      "slug": "legal",
+      "count": 900
+    },
+    {
+      "slug": "marketing",
+      "count": 1000
+    },
+    {
+      "slug": "startup",
+      "count": 1000
+    }
+  ],
+  "total_terms": 13000,
+  "target_total": 13000
+}

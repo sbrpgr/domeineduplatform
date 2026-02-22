@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "marketing",
+  "domainNameKo": "마케팅 / 그로스 해킹",
+  "defaultParent": "마케팅",
+  "terms": [
+    { "termKo": "퍼널", "termEn": "Funnel", "level2": "그로스", "level3": "분석", "oneLineDefinition": "고객 전환 단계를 정의하고 이탈률을 분석하는 프레임", "tags": ["전환", "분석"], "parent": "그로스 마케팅" },
+    { "termKo": "CAC", "termEn": "Customer Acquisition Cost", "level2": "그로스", "level3": "분석", "oneLineDefinition": "신규 고객 1명을 획득하는 데 드는 평균 비용", "tags": ["지표", "획득"], "parent": "마케팅 지표" },
+    { "termKo": "LTV", "termEn": "Lifetime Value", "level2": "그로스", "level3": "분석", "oneLineDefinition": "고객이 생애 동안 창출하는 총 가치", "tags": ["지표", "수익"], "parent": "마케팅 지표" },
+    { "termKo": "ROAS", "termEn": "Return On Ad Spend", "level2": "퍼포먼스", "level3": "광고", "oneLineDefinition": "광고비 대비 매출 효율을 나타내는 성과 지표", "tags": ["광고", "지표"], "parent": "마케팅 지표" },
+    { "termKo": "CTR", "termEn": "Click Through Rate", "level2": "퍼포먼스", "level3": "광고", "oneLineDefinition": "노출 대비 클릭 비율", "tags": ["광고", "지표"], "parent": "광고 지표" },
+    { "termKo": "CVR", "termEn": "Conversion Rate", "level2": "그로스", "level3": "분석", "oneLineDefinition": "방문자 중 전환 목표를 달성한 비율", "tags": ["전환", "지표"], "parent": "마케팅 지표" },
+    { "termKo": "리텐션", "termEn": "Retention", "level2": "그로스", "level3": "분석", "oneLineDefinition": "일정 기간 후에도 사용자가 재방문/재사용하는 비율", "tags": ["유지", "지표"], "parent": "그로스 마케팅" },
+    { "termKo": "코호트 분석", "termEn": "Cohort Analysis", "level2": "그로스", "level3": "분석", "oneLineDefinition": "동일 특성 집단의 행동 변화를 기간별로 비교하는 분석 방법", "tags": ["분석", "리텐션"], "parent": "데이터 분석" },
+    { "termKo": "AARRR", "termEn": "AARRR", "level2": "그로스", "level3": "전략", "oneLineDefinition": "획득-활성화-유지-추천-매출 단계로 성장 지표를 보는 프레임", "tags": ["전략", "그로스"], "parent": "그로스 마케팅" },
+    { "termKo": "세그먼트", "termEn": "Segment", "level2": "CRM", "level3": "전략", "oneLineDefinition": "특정 특성을 기준으로 고객 집단을 구분한 분류 단위", "tags": ["고객", "분류"], "parent": "CRM" },
+    { "termKo": "퍼스널라이제이션", "termEn": "Personalization", "level2": "CRM", "level3": "실행", "oneLineDefinition": "사용자 특성에 맞춰 메시지·경험을 맞춤 제공하는 전략", "tags": ["고객경험", "CRM"], "parent": "CRM" },
+    { "termKo": "온드미디어", "termEn": "Owned Media", "level2": "콘텐츠", "level3": "채널", "oneLineDefinition": "자사 웹/앱/뉴스레터처럼 브랜드가 직접 운영하는 채널", "tags": ["채널", "콘텐츠"], "parent": "미디어 전략" },
+    { "termKo": "언드미디어", "termEn": "Earned Media", "level2": "콘텐츠", "level3": "채널", "oneLineDefinition": "입소문·PR 등 외부 확산으로 얻는 노출 채널", "tags": ["PR", "브랜드"], "parent": "미디어 전략" },
+    { "termKo": "페이드미디어", "termEn": "Paid Media", "level2": "퍼포먼스", "level3": "광고", "oneLineDefinition": "광고비를 지불해 노출을 확보하는 유료 채널", "tags": ["광고", "채널"], "parent": "미디어 전략" },
+    { "termKo": "브랜드 포지셔닝", "termEn": "Brand Positioning", "level2": "브랜드", "level3": "전략", "oneLineDefinition": "경쟁 맥락에서 브랜드가 차지할 인식 위치를 설계하는 전략", "tags": ["브랜드", "전략"], "parent": "브랜드 전략" },
+    { "termKo": "메시지 하우스", "termEn": "Message House", "level2": "브랜드", "level3": "전략", "oneLineDefinition": "핵심 메시지와 근거를 계층적으로 정리한 커뮤니케이션 구조", "tags": ["메시지", "브랜드"], "parent": "브랜드 전략" },
+    { "termKo": "랜딩페이지", "termEn": "Landing Page", "level2": "퍼포먼스", "level3": "실행", "oneLineDefinition": "특정 캠페인 전환을 목적으로 설계한 단일 목적 페이지", "tags": ["전환", "웹"], "parent": "캠페인 실행" },
+    { "termKo": "캠페인", "termEn": "Campaign", "level2": "퍼포먼스", "level3": "실행", "oneLineDefinition": "명확한 목표와 기간을 가진 마케팅 실행 단위", "tags": ["실행", "목표"], "parent": "마케팅 실행" },
+    { "termKo": "크리에이티브 테스트", "termEn": "Creative Test", "level2": "퍼포먼스", "level3": "실행", "oneLineDefinition": "광고 소재 조합을 실험해 성과가 높은 변형을 찾는 과정", "tags": ["광고", "실험"], "parent": "캠페인" },
+    { "termKo": "증분효과", "termEn": "Incrementality", "level2": "그로스", "level3": "분석", "oneLineDefinition": "마케팅 활동이 실제로 추가 매출/행동을 만들었는지 측정하는 개념", "tags": ["분석", "성과"], "parent": "마케팅 측정" }
+  ]
+}

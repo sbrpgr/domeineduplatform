@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "ecommerce",
+  "domainNameKo": "이커머스 / 물류 / SCM",
+  "defaultParent": "커머스 운영",
+  "terms": [
+    { "termKo": "전환율", "termEn": "Conversion Rate", "level2": "커머스", "level3": "지표", "oneLineDefinition": "방문자 중 구매로 이어진 비율", "tags": ["지표", "전환"], "parent": "커머스 분석" },
+    { "termKo": "장바구니 이탈", "termEn": "Cart Abandonment", "level2": "커머스", "level3": "지표", "oneLineDefinition": "장바구니에 담고 결제를 완료하지 않은 비율", "tags": ["전환", "이탈"], "parent": "커머스 분석" },
+    { "termKo": "객단가", "termEn": "AOV", "level2": "커머스", "level3": "지표", "oneLineDefinition": "주문 1건당 평균 결제 금액", "tags": ["지표", "매출"], "parent": "커머스 분석" },
+    { "termKo": "재고회전율", "termEn": "Inventory Turnover", "level2": "물류", "level3": "재고", "oneLineDefinition": "재고가 일정 기간 동안 판매/소진된 속도 지표", "tags": ["재고", "지표"], "parent": "재고 관리" },
+    { "termKo": "안전재고", "termEn": "Safety Stock", "level2": "물류", "level3": "재고", "oneLineDefinition": "수요 변동·공급 지연에 대비해 확보하는 추가 재고", "tags": ["재고", "운영"], "parent": "재고 관리" },
+    { "termKo": "리드타임", "termEn": "Lead Time", "level2": "SCM", "level3": "공급", "oneLineDefinition": "발주부터 입고/납품 완료까지 걸리는 시간", "tags": ["공급망", "시간"], "parent": "공급망 관리" },
+    { "termKo": "풀필먼트", "termEn": "Fulfillment", "level2": "물류", "level3": "운영", "oneLineDefinition": "주문 접수부터 피킹·패킹·출고까지 이행하는 과정", "tags": ["물류", "운영"], "parent": "주문 이행" },
+    { "termKo": "피킹", "termEn": "Picking", "level2": "물류", "level3": "운영", "oneLineDefinition": "주문 상품을 창고에서 찾아 수집하는 작업", "tags": ["물류", "창고"], "parent": "풀필먼트" },
+    { "termKo": "패킹", "termEn": "Packing", "level2": "물류", "level3": "운영", "oneLineDefinition": "출고 전 상품을 포장해 배송 준비하는 작업", "tags": ["물류", "출고"], "parent": "풀필먼트" },
+    { "termKo": "라스트마일", "termEn": "Last Mile", "level2": "물류", "level3": "배송", "oneLineDefinition": "물류 허브에서 최종 고객까지 전달하는 마지막 배송 구간", "tags": ["배송", "운영"], "parent": "배송 관리" },
+    { "termKo": "반품율", "termEn": "Return Rate", "level2": "커머스", "level3": "지표", "oneLineDefinition": "판매된 상품 중 반품된 비율", "tags": ["지표", "품질"], "parent": "커머스 분석" },
+    { "termKo": "OMS", "termEn": "Order Management System", "level2": "커머스", "level3": "시스템", "oneLineDefinition": "주문 생성·변경·취소·정산을 관리하는 시스템", "tags": ["시스템", "주문"], "parent": "커머스 시스템" },
+    { "termKo": "WMS", "termEn": "Warehouse Management System", "level2": "물류", "level3": "시스템", "oneLineDefinition": "입출고·재고·작업 동선을 관리하는 창고 운영 시스템", "tags": ["시스템", "창고"], "parent": "물류 시스템" },
+    { "termKo": "TMS", "termEn": "Transportation Management System", "level2": "물류", "level3": "시스템", "oneLineDefinition": "운송 경로·비용·배차를 최적화하는 운송 관리 시스템", "tags": ["시스템", "운송"], "parent": "물류 시스템" },
+    { "termKo": "수요예측", "termEn": "Demand Forecasting", "level2": "SCM", "level3": "공급", "oneLineDefinition": "미래 수요를 예측해 생산·재고 계획을 수립하는 활동", "tags": ["예측", "계획"], "parent": "공급망 관리" },
+    { "termKo": "발주 최적화", "termEn": "Order Optimization", "level2": "SCM", "level3": "공급", "oneLineDefinition": "재고·수요·리드타임을 고려해 발주량을 최적화하는 기법", "tags": ["재고", "최적화"], "parent": "공급망 관리" },
+    { "termKo": "드롭쉬핑", "termEn": "Dropshipping", "level2": "커머스", "level3": "운영", "oneLineDefinition": "판매자가 재고 없이 공급사 직배송으로 주문을 처리하는 방식", "tags": ["운영", "공급"], "parent": "커머스 운영" },
+    { "termKo": "SKU", "termEn": "Stock Keeping Unit", "level2": "물류", "level3": "재고", "oneLineDefinition": "상품 식별과 재고 관리를 위한 고유 관리 코드", "tags": ["재고", "식별"], "parent": "재고 관리" },
+    { "termKo": "카테고리 매니지먼트", "termEn": "Category Management", "level2": "커머스", "level3": "운영", "oneLineDefinition": "상품군별 매출·재고·가격 전략을 운영하는 업무", "tags": ["상품", "전략"], "parent": "커머스 운영" },
+    { "termKo": "프로모션", "termEn": "Promotion", "level2": "커머스", "level3": "운영", "oneLineDefinition": "할인·쿠폰·묶음 등 구매를 촉진하는 판매 전략", "tags": ["판매", "전환"], "parent": "커머스 운영" }
+  ]
+}

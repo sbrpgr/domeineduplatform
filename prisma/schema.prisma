@@ -1,0 +1,408 @@
+﻿generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Difficulty {
+  novice
+  beginner
+  intermediate
+  advanced
+}
+
+enum DictionaryRole {
+  owner
+  editor
+  viewer
+}
+
+enum ContributionStatus {
+  pending
+  approved
+  rejected
+}
+
+enum RelationshipType {
+  parent
+  sibling
+  child
+  opposite
+}
+
+enum DictionaryVisibility {
+  private
+  team
+  public
+}
+
+model User {
+  id                        String                    @id @default(uuid()) @db.Uuid
+  name                      String?
+  email                     String                    @unique
+  emailVerified             DateTime?                 @map("email_verified")
+  image                     String?
+  passwordHash              String?                   @map("password_hash")
+  authProvider              String                    @default("email") @map("auth_provider")
+  createdAt                 DateTime                  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt                 DateTime                  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  profile                   UserProfile?
+  sessions                  Session[]
+  accounts                  Account[]
+  appSessions               UserSession[]
+  learningRecords           UserLearningRecord[]
+  levelHistory              UserLevelHistory[]
+  bookmarks                 UserBookmark[]
+  notes                     UserNote[]
+  ownedCustomDictionaries   CustomDictionary[]        @relation("DictionaryOwner")
+  customDictionaryMembers   CustomDictionaryMember[]
+  contributions             CommunityContribution[]   @relation("ContributionAuthor")
+  reviewedContributions     CommunityContribution[]   @relation("ContributionReviewer")
+
+  @@map("users")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String  @map("user_id") @db.Uuid
+  type              String
+  provider          String
+  providerAccountId String  @map("provider_account_id")
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique @map("session_token")
+  userId       String   @map("user_id") @db.Uuid
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+  @@map("verification_tokens")
+}
+
+model UserSession {
+  id           String   @id @default(uuid()) @db.Uuid
+  userId       String   @map("user_id") @db.Uuid
+  sessionToken String   @unique @map("session_token")
+  expiresAt    DateTime @map("expires_at") @db.Timestamptz(6)
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_sessions")
+}
+
+model UserProfile {
+  userId            String   @id @map("user_id") @db.Uuid
+  username          String?  @unique
+  displayName       String?  @map("display_name")
+  avatarUrl         String?  @map("avatar_url")
+  bio               String?
+  learningGoal      String?  @map("learning_goal")
+  preferredDomains  String[] @default([]) @map("preferred_domains")
+  createdAt         DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt         DateTime @updatedAt @map("updated_at") @db.Timestamptz(6)
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_profiles")
+}
+
+model Domain {
+  id              String             @id @default(uuid()) @db.Uuid
+  slug            String             @unique
+  nameKo          String             @map("name_ko")
+  nameEn          String             @map("name_en")
+  priority        String
+  targetTermCount Int                @map("target_term_count")
+  createdAt       DateTime           @default(now()) @map("created_at") @db.Timestamptz(6)
+  categories      Category[]
+  terms           Term[]
+  quizQuestions   QuizQuestion[]
+  levelHistory    UserLevelHistory[]
+
+  @@map("domains")
+}
+
+model Category {
+  id        String     @id @default(uuid()) @db.Uuid
+  domainId  String     @map("domain_id") @db.Uuid
+  parentId  String?    @map("parent_id") @db.Uuid
+  level     Int
+  slug      String
+  nameKo    String     @map("name_ko")
+  nameEn    String?    @map("name_en")
+  createdAt DateTime   @default(now()) @map("created_at") @db.Timestamptz(6)
+  domain    Domain     @relation(fields: [domainId], references: [id], onDelete: Cascade)
+  parent    Category?  @relation("CategoryTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children  Category[] @relation("CategoryTree")
+  terms     Term[]
+
+  @@unique([domainId, slug])
+  @@map("categories")
+}
+
+model Term {
+  id                String               @id @default(uuid()) @db.Uuid
+  slug              String               @unique
+  termKo            String               @map("term_ko")
+  termEn            String?              @map("term_en")
+  pronunciation     String?
+  domainId          String               @map("domain_id") @db.Uuid
+  categoryId        String?              @map("category_id") @db.Uuid
+  difficulty        Difficulty
+  oneLineDefinition String               @map("one_line_definition")
+  imageDescription  String?              @map("image_description")
+  imageUrl          String?              @map("image_url")
+  tags              String[]             @default([])
+  createdAt         DateTime             @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt         DateTime             @updatedAt @map("updated_at") @db.Timestamptz(6)
+  domain            Domain               @relation(fields: [domainId], references: [id], onDelete: Cascade)
+  category          Category?            @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  definitions       TermDefinition[]
+  examples          TermExample[]
+  images            TermImage[]
+  outgoingRelations TermRelationship[]   @relation("TermRelationshipFrom")
+  incomingRelations TermRelationship[]   @relation("TermRelationshipTo")
+  quizQuestions     QuizQuestion[]
+  learningRecords   UserLearningRecord[]
+  bookmarks         UserBookmark[]
+  notes             UserNote[]
+  embedding         TermEmbedding?
+
+  @@map("terms")
+}
+
+model TermDefinition {
+  id        String     @id @default(uuid()) @db.Uuid
+  termId    String     @map("term_id") @db.Uuid
+  level     Difficulty
+  content   String
+  createdAt DateTime   @default(now()) @map("created_at") @db.Timestamptz(6)
+  term      Term       @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@unique([termId, level])
+  @@map("term_definitions")
+}
+
+model TermExample {
+  id        String   @id @default(uuid()) @db.Uuid
+  termId    String   @map("term_id") @db.Uuid
+  context   String
+  example   String
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  term      Term     @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@map("term_examples")
+}
+
+model TermImage {
+  id        String   @id @default(uuid()) @db.Uuid
+  termId    String   @map("term_id") @db.Uuid
+  imageUrl  String   @map("image_url")
+  imageAlt  String?  @map("image_alt")
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  term      Term     @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@map("term_images")
+}
+
+model TermRelationship {
+  id         String           @id @default(uuid()) @db.Uuid
+  fromTermId String           @map("from_term_id") @db.Uuid
+  toTermId   String           @map("to_term_id") @db.Uuid
+  relation   RelationshipType
+  createdAt  DateTime         @default(now()) @map("created_at") @db.Timestamptz(6)
+  fromTerm   Term             @relation("TermRelationshipFrom", fields: [fromTermId], references: [id], onDelete: Cascade)
+  toTerm     Term             @relation("TermRelationshipTo", fields: [toTermId], references: [id], onDelete: Cascade)
+
+  @@unique([fromTermId, toTermId, relation])
+  @@map("term_relationships")
+}
+
+model QuizQuestion {
+  id             String       @id @default(uuid()) @db.Uuid
+  termId         String?      @map("term_id") @db.Uuid
+  domainId       String       @map("domain_id") @db.Uuid
+  questionType   String       @map("question_type")
+  prompt         String
+  difficultyBeta Decimal      @map("difficulty_beta") @db.Decimal(4, 2)
+  createdAt      DateTime     @default(now()) @map("created_at") @db.Timestamptz(6)
+  term           Term?        @relation(fields: [termId], references: [id], onDelete: Cascade)
+  domain         Domain       @relation(fields: [domainId], references: [id], onDelete: Cascade)
+  options        QuizOption[]
+
+  @@map("quiz_questions")
+}
+
+model QuizOption {
+  id          String       @id @default(uuid()) @db.Uuid
+  questionId  String       @map("question_id") @db.Uuid
+  optionText  String       @map("option_text")
+  isCorrect   Boolean      @default(false) @map("is_correct")
+  optionOrder Int          @map("option_order")
+  question    QuizQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@map("quiz_options")
+}
+
+model UserLearningRecord {
+  id              String    @id @default(uuid()) @db.Uuid
+  userId          String    @map("user_id") @db.Uuid
+  termId          String    @map("term_id") @db.Uuid
+  attempts        Int       @default(0)
+  correctCount    Int       @default(0) @map("correct_count")
+  dwellTimeMs     BigInt    @default(0) @map("dwell_time_ms")
+  lastSeenAt      DateTime? @map("last_seen_at") @db.Timestamptz(6)
+  sm2Repetitions  Int       @default(0) @map("sm2_repetitions")
+  sm2IntervalDays Int       @default(1) @map("sm2_interval_days")
+  sm2Easiness     Decimal   @default(2.5) @map("sm2_easiness") @db.Decimal(4, 2)
+  nextReviewAt    DateTime? @map("next_review_at") @db.Timestamptz(6)
+  updatedAt       DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  term            Term      @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, termId])
+  @@map("user_learning_records")
+}
+
+model UserLevelHistory {
+  id            String    @id @default(uuid()) @db.Uuid
+  userId        String    @map("user_id") @db.Uuid
+  domainId      String    @map("domain_id") @db.Uuid
+  previousLevel Difficulty? @map("previous_level")
+  newLevel      Difficulty @map("new_level")
+  changedReason String?   @map("changed_reason")
+  changedAt     DateTime  @default(now()) @map("changed_at") @db.Timestamptz(6)
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  domain        Domain    @relation(fields: [domainId], references: [id], onDelete: Cascade)
+
+  @@map("user_level_history")
+}
+
+model UserBookmark {
+  userId    String   @map("user_id") @db.Uuid
+  termId    String   @map("term_id") @db.Uuid
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  term      Term     @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@id([userId, termId])
+  @@map("user_bookmarks")
+}
+
+model UserNote {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @map("user_id") @db.Uuid
+  termId    String   @map("term_id") @db.Uuid
+  content   String
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(6)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  term      Term     @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@map("user_notes")
+}
+
+model CustomDictionary {
+  id          String                   @id @default(uuid()) @db.Uuid
+  name        String
+  description String?
+  ownerId     String                   @map("owner_id") @db.Uuid
+  visibility  DictionaryVisibility     @default(private)
+  slug        String?                  @unique
+  colorTheme  String?                  @map("color_theme")
+  logoUrl     String?                  @map("logo_url")
+  createdAt   DateTime                 @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt   DateTime                 @updatedAt @map("updated_at") @db.Timestamptz(6)
+  owner       User                     @relation("DictionaryOwner", fields: [ownerId], references: [id], onDelete: Cascade)
+  terms       CustomTerm[]
+  members     CustomDictionaryMember[]
+
+  @@map("custom_dictionaries")
+}
+
+model CustomTerm {
+  id                    String                  @id @default(uuid()) @db.Uuid
+  dictionaryId          String                  @map("dictionary_id") @db.Uuid
+  termKo                String                  @map("term_ko")
+  termEn                String?                 @map("term_en")
+  oneLineDefinition     String?                 @map("one_line_definition")
+  definitions           Json?
+  usageExamples         Json?                   @map("usage_examples")
+  aiPromptExample       String?                 @map("ai_prompt_example")
+  relatedPlatformTermIds String[]               @default([]) @map("related_platform_term_ids") @db.Uuid
+  relatedCustomTermIds  String[]                @default([]) @map("related_custom_term_ids") @db.Uuid
+  difficulty            Difficulty?
+  tags                  String[]                @default([])
+  aiGenerated           Boolean                 @default(false) @map("ai_generated")
+  aiConfidence          Json?                   @map("ai_confidence")
+  orderIndex            Int?                    @map("order_index")
+  createdAt             DateTime                @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt             DateTime                @updatedAt @map("updated_at") @db.Timestamptz(6)
+  dictionary            CustomDictionary        @relation(fields: [dictionaryId], references: [id], onDelete: Cascade)
+  contributions         CommunityContribution[]
+
+  @@map("custom_terms")
+}
+
+model CustomDictionaryMember {
+  dictionaryId String         @map("dictionary_id") @db.Uuid
+  userId       String         @map("user_id") @db.Uuid
+  role         DictionaryRole
+  invitedAt    DateTime       @default(now()) @map("invited_at") @db.Timestamptz(6)
+  dictionary   CustomDictionary @relation(fields: [dictionaryId], references: [id], onDelete: Cascade)
+  user         User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([dictionaryId, userId])
+  @@map("custom_dictionary_members")
+}
+
+model CommunityContribution {
+  id           String             @id @default(uuid()) @db.Uuid
+  contributorId String            @map("contributor_id") @db.Uuid
+  termId       String?            @map("term_id") @db.Uuid
+  customTermId String?            @map("custom_term_id") @db.Uuid
+  proposal     Json
+  status       ContributionStatus @default(pending)
+  reviewerId   String?            @map("reviewer_id") @db.Uuid
+  reviewedAt   DateTime?          @map("reviewed_at") @db.Timestamptz(6)
+  createdAt    DateTime           @default(now()) @map("created_at") @db.Timestamptz(6)
+  contributor  User               @relation("ContributionAuthor", fields: [contributorId], references: [id], onDelete: Cascade)
+  reviewer     User?              @relation("ContributionReviewer", fields: [reviewerId], references: [id], onDelete: SetNull)
+  term         Term?              @relation(fields: [termId], references: [id], onDelete: SetNull)
+  customTerm   CustomTerm?        @relation(fields: [customTermId], references: [id], onDelete: SetNull)
+
+  @@map("community_contributions")
+}
+
+model TermEmbedding {
+  termId     String                  @id @map("term_id") @db.Uuid
+  embedding  Unsupported("vector(3072)")
+  updatedAt  DateTime                @default(now()) @map("updated_at") @db.Timestamptz(6)
+  term       Term                    @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@map("term_embeddings")
+}

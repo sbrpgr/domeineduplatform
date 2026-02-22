@@ -1,0 +1,27 @@
+﻿{
+  "domainSlug": "legal",
+  "domainNameKo": "법률 / 컴플라이언스",
+  "defaultParent": "법률 체계",
+  "terms": [
+    { "termKo": "컴플라이언스", "termEn": "Compliance", "level2": "준법", "level3": "운영", "oneLineDefinition": "법·규정·내부 정책을 준수하도록 통제하는 체계", "tags": ["준법", "통제"], "parent": "기업 거버넌스" },
+    { "termKo": "내부통제", "termEn": "Internal Control", "level2": "준법", "level3": "운영", "oneLineDefinition": "리스크를 예방·감지하기 위한 조직 내 통제 장치", "tags": ["통제", "감사"], "parent": "컴플라이언스" },
+    { "termKo": "실사", "termEn": "Due Diligence", "level2": "법무", "level3": "거래", "oneLineDefinition": "거래 전 법적·재무적 위험을 조사·검토하는 절차", "tags": ["거래", "검토"], "parent": "법률 리스크" },
+    { "termKo": "계약서 검토", "termEn": "Contract Review", "level2": "법무", "level3": "계약", "oneLineDefinition": "계약 조항의 권리·의무·리스크를 점검하는 업무", "tags": ["계약", "검토"], "parent": "계약 관리" },
+    { "termKo": "면책", "termEn": "Indemnification", "level2": "법무", "level3": "계약", "oneLineDefinition": "손해 발생 시 특정 당사자가 책임을 부담하도록 하는 조항", "tags": ["계약", "리스크"], "parent": "계약 관리" },
+    { "termKo": "관할", "termEn": "Jurisdiction", "level2": "법무", "level3": "계약", "oneLineDefinition": "분쟁 해결 시 적용될 법원·법체계를 지정하는 개념", "tags": ["분쟁", "법원"], "parent": "분쟁 해결" },
+    { "termKo": "준거법", "termEn": "Governing Law", "level2": "법무", "level3": "계약", "oneLineDefinition": "계약 해석과 분쟁 판단에 적용되는 법", "tags": ["계약", "법체계"], "parent": "계약 관리" },
+    { "termKo": "NDA", "termEn": "Non-Disclosure Agreement", "level2": "법무", "level3": "계약", "oneLineDefinition": "비밀정보의 사용·공개를 제한하는 계약", "tags": ["비밀유지", "계약"], "parent": "계약 관리" },
+    { "termKo": "지식재산권", "termEn": "Intellectual Property", "level2": "법무", "level3": "IP", "oneLineDefinition": "특허·상표·저작권 등 창작물에 대한 법적 권리", "tags": ["IP", "권리"], "parent": "권리 보호" },
+    { "termKo": "저작권", "termEn": "Copyright", "level2": "법무", "level3": "IP", "oneLineDefinition": "저작물의 복제·배포·공표 등에 대한 권리", "tags": ["IP", "콘텐츠"], "parent": "지식재산권" },
+    { "termKo": "상표", "termEn": "Trademark", "level2": "법무", "level3": "IP", "oneLineDefinition": "상품·서비스의 출처를 식별하는 표지에 대한 권리", "tags": ["브랜드", "IP"], "parent": "지식재산권" },
+    { "termKo": "특허", "termEn": "Patent", "level2": "법무", "level3": "IP", "oneLineDefinition": "신규 기술 발명에 부여되는 독점적 권리", "tags": ["기술", "IP"], "parent": "지식재산권" },
+    { "termKo": "개인정보 처리방침", "termEn": "Privacy Policy", "level2": "준법", "level3": "개인정보", "oneLineDefinition": "개인정보 수집·이용·보관 정책을 사용자에게 고지하는 문서", "tags": ["개인정보", "정책"], "parent": "개인정보 보호" },
+    { "termKo": "처리위탁", "termEn": "Data Processing Agreement", "level2": "준법", "level3": "개인정보", "oneLineDefinition": "개인정보 처리 업무를 외부에 위탁할 때 체결하는 계약", "tags": ["개인정보", "계약"], "parent": "개인정보 보호" },
+    { "termKo": "보존기간", "termEn": "Retention Period", "level2": "준법", "level3": "개인정보", "oneLineDefinition": "데이터를 합법적으로 보관할 수 있는 기간", "tags": ["데이터", "규제"], "parent": "개인정보 보호" },
+    { "termKo": "감사 추적", "termEn": "Audit Trail", "level2": "준법", "level3": "운영", "oneLineDefinition": "누가 언제 어떤 행위를 했는지 기록하는 추적 로그", "tags": ["감사", "로그"], "parent": "내부통제" },
+    { "termKo": "위반 신고", "termEn": "Whistleblowing", "level2": "준법", "level3": "운영", "oneLineDefinition": "법·윤리 위반 사항을 내부 채널로 신고하는 제도", "tags": ["윤리", "신고"], "parent": "컴플라이언스" },
+    { "termKo": "제재 리스트", "termEn": "Sanctions List", "level2": "준법", "level3": "심사", "oneLineDefinition": "거래 금지 대상 여부를 확인하기 위한 제재 대상 목록", "tags": ["제재", "심사"], "parent": "컴플라이언스" },
+    { "termKo": "리스크 매트릭스", "termEn": "Risk Matrix", "level2": "준법", "level3": "심사", "oneLineDefinition": "발생 가능성과 영향도를 기준으로 리스크를 분류하는 도구", "tags": ["리스크", "분석"], "parent": "법률 리스크" },
+    { "termKo": "규정집", "termEn": "Policy Manual", "level2": "준법", "level3": "운영", "oneLineDefinition": "조직이 준수해야 할 정책·절차를 체계화한 문서", "tags": ["정책", "운영"], "parent": "컴플라이언스" }
+  ]
+}

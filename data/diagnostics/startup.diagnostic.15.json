@@ -1,0 +1,237 @@
+[
+  {
+    "id": "startup-diag-01",
+    "type": "multiple_choice",
+    "question": "MVP의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "가설 검증에 필요한 최소 기능만 담은 초기 제품",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "MVP의 핵심은 '가설 검증에 필요한 최소 기능만 담은 초기 제품'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-02",
+    "type": "ox",
+    "question": "제품-시장 적합성은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "제품-시장 적합성은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-03",
+    "type": "matching",
+    "question": "북극성 지표와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "제품 지표",
+      "OKR",
+      "KPI"
+    ],
+    "answer": "제품 지표",
+    "explanation": "북극성 지표의 상위 개념은 제품 지표입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-04",
+    "type": "multiple_choice",
+    "question": "OKR의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "목표와 핵심 결과를 연결해 실행 우선순위를 정렬하는 프레임",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "OKR의 핵심은 '목표와 핵심 결과를 연결해 실행 우선순위를 정렬하는 프레임'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-05",
+    "type": "ox",
+    "question": "KPI은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "KPI은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-06",
+    "type": "matching",
+    "question": "로드맵와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "제품 운영",
+      "백로그",
+      "스프린트"
+    ],
+    "answer": "제품 운영",
+    "explanation": "로드맵의 상위 개념은 제품 운영입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-07",
+    "type": "multiple_choice",
+    "question": "백로그의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "향후 개발 후보 작업을 우선순위로 정리한 목록",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "백로그의 핵심은 '향후 개발 후보 작업을 우선순위로 정리한 목록'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-08",
+    "type": "ox",
+    "question": "스프린트은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "스프린트은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-09",
+    "type": "matching",
+    "question": "회고와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "애자일",
+      "우선순위 매트릭스",
+      "RICE"
+    ],
+    "answer": "애자일",
+    "explanation": "회고의 상위 개념은 애자일입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-10",
+    "type": "multiple_choice",
+    "question": "우선순위 매트릭스의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "영향도와 노력도 기준으로 작업 우선순위를 평가하는 도구",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "우선순위 매트릭스의 핵심은 '영향도와 노력도 기준으로 작업 우선순위를 평가하는 도구'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-11",
+    "type": "ox",
+    "question": "RICE은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "RICE은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-12",
+    "type": "matching",
+    "question": "리스크 레지스터와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "리스크 관리",
+      "런웨이",
+      "번레이트"
+    ],
+    "answer": "리스크 관리",
+    "explanation": "리스크 레지스터의 상위 개념은 리스크 관리입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-13",
+    "type": "multiple_choice",
+    "question": "런웨이의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "현재 자금으로 추가 조달 없이 운영 가능한 기간",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "런웨이의 핵심은 '현재 자금으로 추가 조달 없이 운영 가능한 기간'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-14",
+    "type": "ox",
+    "question": "번레이트은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "번레이트은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "startup-diag-15",
+    "type": "matching",
+    "question": "유닛 이코노믹스와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "재무 관리",
+      "조직 설계",
+      "의사결정 로그"
+    ],
+    "answer": "재무 관리",
+    "explanation": "유닛 이코노믹스의 상위 개념은 재무 관리입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  }
+]

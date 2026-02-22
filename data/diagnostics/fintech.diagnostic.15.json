@@ -1,0 +1,237 @@
+[
+  {
+    "id": "fintech-diag-01",
+    "type": "multiple_choice",
+    "question": "결제 게이트웨이의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "결제 요청을 승인·정산 시스템으로 전달하는 중계 계층",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "결제 게이트웨이의 핵심은 '결제 요청을 승인·정산 시스템으로 전달하는 중계 계층'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-02",
+    "type": "ox",
+    "question": "정산은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "정산은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-03",
+    "type": "matching",
+    "question": "KYC와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "규제 준수",
+      "AML",
+      "리스크 스코어링"
+    ],
+    "answer": "규제 준수",
+    "explanation": "KYC의 상위 개념은 규제 준수입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-04",
+    "type": "multiple_choice",
+    "question": "AML의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "자금세탁 방지를 위한 거래 모니터링 체계",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "AML의 핵심은 '자금세탁 방지를 위한 거래 모니터링 체계'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-05",
+    "type": "ox",
+    "question": "리스크 스코어링은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "리스크 스코어링은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-06",
+    "type": "matching",
+    "question": "신용평가와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "리스크 관리",
+      "오픈뱅킹",
+      "가상계좌"
+    ],
+    "answer": "리스크 관리",
+    "explanation": "신용평가의 상위 개념은 리스크 관리입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-07",
+    "type": "multiple_choice",
+    "question": "오픈뱅킹의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "은행 데이터를 표준 API로 외부 서비스와 공유하는 체계",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "오픈뱅킹의 핵심은 '은행 데이터를 표준 API로 외부 서비스와 공유하는 체계'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-08",
+    "type": "ox",
+    "question": "가상계좌은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "가상계좌은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-09",
+    "type": "matching",
+    "question": "차지백와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "결제 운영",
+      "PG",
+      "전표 매입"
+    ],
+    "answer": "결제 운영",
+    "explanation": "차지백의 상위 개념은 결제 운영입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-10",
+    "type": "multiple_choice",
+    "question": "PG의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "결제 승인·연동 서비스를 제공하는 사업자",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "PG의 핵심은 '결제 승인·연동 서비스를 제공하는 사업자'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-11",
+    "type": "ox",
+    "question": "전표 매입은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "전표 매입은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-12",
+    "type": "matching",
+    "question": "지급결제와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "결제 시스템",
+      "부정거래 탐지",
+      "거래 한도"
+    ],
+    "answer": "결제 시스템",
+    "explanation": "지급결제의 상위 개념은 결제 시스템입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-13",
+    "type": "multiple_choice",
+    "question": "부정거래 탐지의 가장 적절한 설명은 무엇인가?",
+    "options": [
+      "도메인과 무관한 개념",
+      "이상 거래 패턴을 탐지해 피해를 차단하는 체계",
+      "항상 동일한 고정 UI 요소",
+      "문서 포맷 이름"
+    ],
+    "answer": 1,
+    "explanation": "부정거래 탐지의 핵심은 '이상 거래 패턴을 탐지해 피해를 차단하는 체계'입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-14",
+    "type": "ox",
+    "question": "거래 한도은(는) 실무 맥락에 따라 적용 기준이 달라질 수 있다.",
+    "answer": true,
+    "explanation": "거래 한도은(는) 목적/맥락에 따라 적용 방식이 달라집니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  },
+  {
+    "id": "fintech-diag-15",
+    "type": "matching",
+    "question": "원장와 가장 관련된 상위 개념을 고르세요.",
+    "options": [
+      "금융 데이터",
+      "이중기장",
+      "송금"
+    ],
+    "answer": "금융 데이터",
+    "explanation": "원장의 상위 개념은 금융 데이터입니다.",
+    "self_assessment": [
+      "들어봤다",
+      "설명할 수 있다",
+      "직접 사용해봤다"
+    ]
+  }
+]

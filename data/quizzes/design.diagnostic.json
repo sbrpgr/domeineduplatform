@@ -1,0 +1,22 @@
+﻿[
+  {
+    "id": "design-q-01",
+    "type": "ox",
+    "question": "디자인 토큰은 개발 코드와 무관하다.",
+    "answer": false,
+    "explanation": "토큰은 디자인-개발 간 공통 계약입니다."
+  },
+  {
+    "id": "design-q-02",
+    "type": "multiple_choice",
+    "question": "타이포그래피 스케일의 주요 목적은?",
+    "options": [
+      "랜덤한 크기 사용",
+      "텍스트 위계와 일관성 확보",
+      "이미지 최적화",
+      "API 버전 관리"
+    ],
+    "answer": 1,
+    "explanation": "스케일은 위계와 일관성을 만드는 체계입니다."
+  }
+]
