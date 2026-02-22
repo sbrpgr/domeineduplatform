@@ -32,3 +32,4 @@ coverage/
 # prisma local database files
 *.db
 *.db-journal
+.vercel

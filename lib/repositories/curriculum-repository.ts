@@ -131,7 +131,7 @@ export async function getLearningCurriculum(domain: string, userId: string): Pro
       .slice(0, 3)
       .map((item) => ({ term_id: item.termId, reason: 'weak_term' as const }));
 
-    const domainTerms = await prisma.term.findMany({
+    const domainTerms: Array<{ id: string }> = await prisma.term.findMany({
       where: { domainId: domainRow.id },
       select: { id: true },
       take: 1200
