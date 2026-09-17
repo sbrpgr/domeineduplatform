@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { AppShell } from '@/components/layout/app-shell';
 import { loadAllGeneratedTerms } from '@/lib/generated-data';
 
-export default function GlossaryDetailPage({ params }: { params: { id: string } }) {
+export default async function GlossaryDetailPage({ params: routeParams }: { params: Promise<{ id: string }> }) {
+  const params = await routeParams;
   const items = loadAllGeneratedTerms().slice(0, 60);
 
   return (

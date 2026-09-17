@@ -4,7 +4,8 @@ import { getDomainBySlug } from '@/lib/data';
 import { listDiagnosticQuiz } from '@/lib/repositories/quiz-repository';
 import { AdaptiveQuiz } from '@/components/learn/adaptive-quiz';
 
-export default async function LearnQuizPage({ params }: { params: { domain: string } }) {
+export default async function LearnQuizPage({ params: routeParams }: { params: Promise<{ domain: string }> }) {
+  const params = await routeParams;
   const domain = getDomainBySlug(params.domain);
   if (!domain) notFound();
 

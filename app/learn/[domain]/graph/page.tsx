@@ -4,7 +4,8 @@ import { getDomainBySlug } from '@/lib/data';
 import { InteractiveGraph } from '@/components/graph/interactive-graph';
 import { listGraphEdges } from '@/lib/repositories/graph-repository';
 
-export default async function LearnGraphPage({ params }: { params: { domain: string } }) {
+export default async function LearnGraphPage({ params: routeParams }: { params: Promise<{ domain: string }> }) {
+  const params = await routeParams;
   const domain = getDomainBySlug(params.domain);
   if (!domain) notFound();
 

@@ -4,7 +4,8 @@ import { getDomainBySlug } from '@/lib/data';
 import { listLearningTerms } from '@/lib/repositories/learning-term-repository';
 import { FlashcardTrainer } from '@/components/learn/flashcard-trainer';
 
-export default async function LearnCardPage({ params }: { params: { domain: string } }) {
+export default async function LearnCardPage({ params: routeParams }: { params: Promise<{ domain: string }> }) {
+  const params = await routeParams;
   const domain = getDomainBySlug(params.domain);
   if (!domain) notFound();
 

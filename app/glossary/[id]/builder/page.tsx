@@ -1,6 +1,7 @@
 ﻿import { AppShell } from '@/components/layout/app-shell';
 
-export default function GlossaryBuilderPage({ params }: { params: { id: string } }) {
+export default async function GlossaryBuilderPage({ params: routeParams }: { params: Promise<{ id: string }> }) {
+  const params = await routeParams;
   return (
     <AppShell title={`사전 빌더: ${params.id}`} subtitle="좌측 목록 + 우측 편집 + AI 제안 패널">
       <div className="grid gap-4 lg:grid-cols-5">

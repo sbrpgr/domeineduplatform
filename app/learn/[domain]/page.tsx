@@ -3,7 +3,8 @@ import { notFound } from 'next/navigation';
 import { AppShell } from '@/components/layout/app-shell';
 import { getDomainBySlug } from '@/lib/data';
 
-export default function LearnDomainPage({ params }: { params: { domain: string } }) {
+export default async function LearnDomainPage({ params: routeParams }: { params: Promise<{ domain: string }> }) {
+  const params = await routeParams;
   const domain = getDomainBySlug(params.domain);
   if (!domain) notFound();
 
