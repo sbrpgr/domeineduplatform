@@ -1,6 +1,7 @@
 ﻿import { AppShell } from '@/components/layout/app-shell';
 
-export default function ProfilePage({ params }: { params: { username: string } }) {
+export default async function ProfilePage({ params: routeParams }: { params: Promise<{ username: string }> }) {
+  const params = await routeParams;
   return (
     <AppShell title={`@${params.username}`} subtitle="공개 프로필 및 기여 이력">
       <div className="rounded-xl border border-slate-200 bg-white p-4">프로필 초기 버전</div>

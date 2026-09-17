@@ -11,7 +11,8 @@ type TermPageParams = {
   termSlug: string;
 };
 
-export async function generateMetadata({ params }: { params: TermPageParams }): Promise<Metadata> {
+export async function generateMetadata({ params: routeParams }: { params: Promise<TermPageParams> }): Promise<Metadata> {
+  const params = await routeParams;
   const term = await findTermByIdOrSlug(params.termSlug);
   if (!term) {
     return { title: 'Term Not Found | 도메인 용어 백과사전' };
@@ -25,7 +26,8 @@ export async function generateMetadata({ params }: { params: TermPageParams }): 
   });
 }
 
-export default async function SeoTermPage({ params }: { params: TermPageParams }) {
+export default async function SeoTermPage({ params: routeParams }: { params: Promise<TermPageParams> }) {
+  const params = await routeParams;
   const [domain, term] = await Promise.all([findDomainBySlug(params.domain), findTermByIdOrSlug(params.termSlug)]);
 
   if (!domain || !term || term.domain !== params.domain) notFound();
